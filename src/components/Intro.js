@@ -6,7 +6,7 @@ import { Button } from '../components'
 
 import logo from '../assets/logo.png';
 
-//index > App > Headers, Homepage, Footer > Intro > Button 123
+//index > App > Headers, Homepage, Footer > Intro > Button
 
 const IntroWrapper = css`
   position: relative;
