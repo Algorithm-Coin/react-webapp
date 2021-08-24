@@ -85,7 +85,7 @@ Most people cloning this repository will have NPM installed, but just in case :)
 
 ```shell
 # Clone this repository
-$ git clone git clone git@github.com:Algorithm-Coin/react-webapp.git
+$ git clone git@github.com:Algorithm-Coin/react-webapp.git
 
 # Go into the directory
 $ cd react-webapp
