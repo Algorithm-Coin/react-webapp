@@ -14,6 +14,7 @@ const IntroWrapper = css`
   height: 100vh;
   background-color: #0d0d2c;
   top: -100px;
+  user-select: none;
 `;
 
 const TextContainer = css`

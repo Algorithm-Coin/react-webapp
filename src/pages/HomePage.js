@@ -1,7 +1,7 @@
 import React from 'react';
 import { css } from '@emotion/react';
 
-import { Intro } from '../components'
+import { Intro } from '../containers'
 
 const HomePageStyle = css`
   h1 {
