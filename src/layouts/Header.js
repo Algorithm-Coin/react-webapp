@@ -66,13 +66,6 @@ const Header = () => {
             Algorithm Coin
           </Link>
         </div>
-        <div>
-          {isLight ? (
-            <SunIcon className="theme" onClick={toggleTheme} />
-          ) : (
-            <MoonIcon className="theme" onClick={toggleTheme} />
-          )}
-        </div>
       </nav>
     </header>
   );
