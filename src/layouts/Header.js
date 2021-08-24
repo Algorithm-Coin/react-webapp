@@ -1,9 +1,6 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { css } from '@emotion/react';
-
-import { ReactComponent as SunIcon } from '../assets/sun.svg';
-import { ReactComponent as MoonIcon } from '../assets/moon.svg';
 import media from '../styles/media';
 import { palette } from '../styles/palette';
 import { useThemeContext } from '../contexts/ThemeContext';
