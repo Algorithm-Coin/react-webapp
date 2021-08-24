@@ -74,7 +74,7 @@ Below are the steps required to run this application locally.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+Most people cloning this repository will have NPM installed, but just in case :).
 
 - npm
   ```sh
