@@ -15,6 +15,7 @@
   <p align="center">
     The future of automatic trading
     <br />
+  [![Netlify Status](https://api.netlify.com/api/v1/badges/59c8ca80-9c7c-4a2b-b397-2e79ea576d3f/deploy-status)](https://app.netlify.com/sites/elated-heisenberg-742c10/deploys)
     <br />
     <a href="https://algorithmcoin.com">View Website</a>
     ·
