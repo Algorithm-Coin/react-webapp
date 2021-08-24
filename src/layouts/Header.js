@@ -2,7 +2,6 @@ import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { css } from '@emotion/react';
 
-import { ReactComponent as LogoIcon } from '../assets/zap.svg';
 import { ReactComponent as SunIcon } from '../assets/sun.svg';
 import { ReactComponent as MoonIcon } from '../assets/moon.svg';
 import media from '../styles/media';
@@ -10,7 +9,10 @@ import { palette } from '../styles/palette';
 import { useThemeContext } from '../contexts/ThemeContext';
 
 const headerStyle = (isLight) => css`
-  height: 60px;
+  height: 100px;
+  border-bottom: 2px solid white;
+  z-index: 99;
+  
   ${media.medium} {
     height: 50px;
   }
@@ -18,7 +20,7 @@ const headerStyle = (isLight) => css`
   & > nav {
     height: 100%;
     display: flex;
-    padding: 0 12px;
+    padding: 0 5em;
     margin: 0 auto;
     max-width: 1440px;
     align-items: center;
@@ -28,10 +30,9 @@ const headerStyle = (isLight) => css`
       height: 100%;
       display: flex;
       align-items: center;
-      font-size: 2rem;
-      font-weight: bold;
+      font-family: "Gugi", cursive;
+      font-size: 3rem;
       text-decoration: none;
-      text-transform: uppercase;
 
       svg {
         width: 2rem;
@@ -62,8 +63,7 @@ const Header = () => {
       <nav>
         <div className="logo">
           <Link to="/" replace={pathname === '/'}>
-            <LogoIcon />
-            brand
+            Algorithm Coin
           </Link>
         </div>
         <div>
