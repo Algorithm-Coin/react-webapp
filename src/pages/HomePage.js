@@ -1,7 +1,6 @@
 import React from 'react';
 import { css } from '@emotion/react';
-
-import { Intro } from '../containers'
+import { Intro, Mission } from '../containers'
 
 const HomePageStyle = css`
   h1 {
@@ -18,6 +17,7 @@ const HomePage = () => {
   return (
     <div css={[HomePageStyle]}>
       <Intro />
+      <Mission />
     </div>
   );
 };
