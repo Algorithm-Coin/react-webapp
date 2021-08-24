@@ -85,10 +85,10 @@ Most people cloning this repository will have NPM installed, but just in case :)
 
 ```shell
 # Clone this repository
-$ git clone https://github.com/larsniet/algorithm-coin.git
+$ git clone git clone git@github.com:Algorithm-Coin/react-webapp.git
 
 # Go into the directory
-$ cd algorithm-coin
+$ cd react-webapp
 
 # Install dependencies
 $ npm install
