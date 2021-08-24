@@ -13,6 +13,11 @@ const MissionWrapper = css`
     padding-bottom: 2%;
     background-color: rgba(13, 13, 44);
 
+    h1{
+        font-size: 4rem;
+        font-weight: 500;
+    }
+
     h4{
         font-size: 24px;
         padding-bottom: 2%;
@@ -77,13 +82,13 @@ const Mission = () => {
                 <div css={corners}>
                     <div css={gridItem}>
                         <h4>A New Era of Trading</h4>
-                        <p>Our team at Algorithm Coin is working on an application to trade automatically like a day trader. Advanced software that uses AI and pattern recognition technology makes it possible to make big profits in the crypto market. A demo is currently being worked on. In the future will this application be available for algorithm coin holders.</p>
+                        <p>Our team at Algorithm Coin is working on an application to trade automatically like a day trader. Advanced software that uses AI and pattern recognition technology makes it possible to make big profits in the crypto market. A demo is currently being worked on. In the future will this application be available for Algorithm Coin holders.</p>
                     </div>
                 </div>
                 <div css={gridItem}>
                     <h4>The Power of Algorithm</h4>
                     <img src={svg2} css={foto}></img>
-                    <p>Our coming application offers a lot of potential in the future. Buy Algorithm coin and enjoy our prosperity.</p>
+                    <p>Our coming application offers a lot of potential in the future. Buy Algorithm Coin and enjoy our prosperity.</p>
                 </div>
                 <div css={gridItem}>
                     <h4>Analytics</h4>

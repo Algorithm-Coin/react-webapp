@@ -12,9 +12,13 @@ const HowToBuyWrapper = css`
     padding-bottom: 2%;
     background-color: rgba(13, 13, 44);
 
-    h4{
-        font-size: 24px;
-        padding-bottom: 2%;
+    h1{
+        text-align: center;
+        color: white;
+        background-color: rgb(23, 23, 73);
+        padding: 2%;
+        margin-bottom: 0px!important;
+        font-size: 2.5rem;
     }
     p{
         text-align: center;
