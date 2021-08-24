@@ -92,6 +92,9 @@ $ cd react-webapp
 
 # Install dependencies
 $ npm install
+
+# Start the app
+$ npm run start
 ```
 
 <!-- ROADMAP -->
