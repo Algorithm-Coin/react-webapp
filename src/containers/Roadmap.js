@@ -48,6 +48,9 @@ const RoadmapWrapper = css`
         text-align: left;
         font-size: 16px;
     }
+    ${media.large}  {
+    padding: 10%;
+    }
 `;
 
 const TextContainer = css`
@@ -60,7 +63,14 @@ const containerGrid = css`
 display: inline-grid;
 grid-template-columns: 1fr 1fr;
 width: 100%;
-    ${media.medium}  {
+    ${media.xlarge}  {
+    grid-template-areas:
+    'kleingedeelte grootgedeelte grootgedeelte';
+    grid-template-columns: 1fr 1fr 1fr;
+    }
+    ${media.large}  {
+    grid-template-areas:
+    'grootgedeelte';
     grid-template-columns: 1fr;
     }
 `;
@@ -69,25 +79,31 @@ display: inline-grid;
 grid-template-columns: 1fr 1fr;
 width: 100%;
 height: 250px;
+    ${media.large}  {
+    grid-template-columns: 1fr;
+    display: inline-block;
+    }
 `;
 const gridItem = css`
     padding-left: 3%;
     padding-right: 3%;
     width: 100%;
     height: auto;
-
-    ${media.medium}  {
+    ${media.large}  {
     display: none;
+    }
+    ${media.xlarge}  {
+    grid-area: kleingedeelte;
     }
 `;
 const gridItem2 = css`
-padding-left: 3%;
-padding-right: 3%;
-width: 100%;
-height: auto;
-border-left: 2px dashed #FDD700;
-    ${media.medium}  {
-    margin-left: 10%;
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 100%;
+    height: auto;
+    border-left: 2px dashed #FDD700;
+    ${media.xlarge}  {
+    grid-area: grootgedeelte;
     }
 `;
 const animatie = css`
@@ -102,23 +118,36 @@ const animatie = css`
     ${media.xlarge}  {
     width: 400px;
     }
+    ${media.large}  {
+    width: 400px;
+    }
 `;
 const icon = css`
     width: 80px;
     height: 80px;
     margin-left: -130px;
-    ${media.medium}  {
-    margin-right: 20%;
+    ${media.large}  {
+    margin-left: 30%;
     }
 `;
 const iconGrid = css`
     width: 80px;
     height: 80px;
     top: -10px;
+    ${media.large}  {
+        float: left;
+        width: 0;
+        margin-left: -65px;
+    }
 `;
 const info = css`
     margin-left: -300px;
+    ${media.large}  {
+    margin-left: 5%;
+    padding-bottom: 30%;
+    }
 `;
+
 
 
 const Roadmap = () => {

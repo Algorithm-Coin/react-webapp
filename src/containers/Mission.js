@@ -42,11 +42,7 @@ const containerGrid = css`
     display: inline-grid;
     grid-template-columns: 1fr 1fr 1fr;
     width: 100%;
-
     ${media.small}  {
-    grid-template-columns: 1fr 1fr;
-    }
-    ${media.xsmall}  {
     grid-template-columns: 1fr;
     }
 `;

@@ -44,18 +44,21 @@ const TextContainer = css`
 text-align: center;
 color: white;
 background-color: rgba(13, 13, 44);
-margin-bottom: 0px!important;
+margin-bottom: 0px;
 `;
 const containerGrid = css`
 display: inline-grid;
 grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 width: 100%;
 
+    ${media.large}  {
+    grid-template-columns: 1fr 1fr 1fr;
+    }
     ${media.medium}  {
-    grid-template-columns: 1fr 1fr 1fr!important;
+    grid-template-columns: 1fr 1fr;
     }
     ${media.small}  {
-    grid-template-columns: 1fr 1fr!important;
+    grid-template-columns: 1fr;
     }
 `;
 
@@ -84,7 +87,7 @@ const HowToBuy = () => {
                 </div>
                 <div css={gridItem}>
                     <h4>Enable "browser" inside the app (only needed when having an iPhone)</h4>
-                    <p>Open the trustwallet app. Go to the browser tap and search for pancakeswap.<b>When having an android: </b>Just click Dapps or Browser button on the bottom inside the trustwallet app..</p>
+                    <p>Open the trustwallet app. Go to the browser tap and search for pancakeswap.<b>When having an android: </b>Just click D-apps or Browser button on the bottom inside the trustwallet app..</p>
                 </div>
                 <div css={gridItem}>
                     <h4>Search for Pancakeswap</h4>
