@@ -12,7 +12,7 @@ const headerStyle = (isLight) => css`
   height: 100px;
   border-bottom: 2px solid white;
   z-index: 99;
-  
+
   ${media.medium} {
     height: 50px;
   }
