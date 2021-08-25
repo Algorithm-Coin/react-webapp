@@ -1,0 +1,33 @@
+// Animations
+@keyframes verticalWobble {
+  0% {
+    transform: translateY(-25px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-25px);
+  }
+}
+
+@keyframes animateToFaded {
+  from {
+    background-color: transparent;
+  }
+  to {
+    background-color: rgba(13, 13, 44, 0.95);
+  }
+}
+@keyframes fadeInLeft {
+  from {
+    display: none;
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to {
+    display: block;
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

@@ -24,15 +24,3 @@ a {
   color: inherit;
   text-decoration: none;
 }
-
-@keyframes verticalWobble {
-  0% {
-    transform: translateY(-25px);
-  }
-  50% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(-25px);
-  }
-}
