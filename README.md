@@ -1,6 +1,6 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/Algorithm-Coin/react-webapp)
-![GitHub issues](https://img.shields.io/github/issues/Algorithm-Coin/react-webapp)[https://github.com/Algorithm-Coin/react-webapp/issues]
-![GitHub](https://img.shields.io/github/license/Algorithm-Coin/react-webapp?style=for-the-badge)
+![GitHub issues](https://img.shields.io/github/issues/Algorithm-Coin/react-webapp)
+![GitHub](https://img.shields.io/github/license/Algorithm-Coin/react-webapp)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/59c8ca80-9c7c-4a2b-b397-2e79ea576d3f/deploy-status)](https://app.netlify.com/sites/elated-heisenberg-742c10/deploys)
 
 <!-- PROJECT LOGO -->
