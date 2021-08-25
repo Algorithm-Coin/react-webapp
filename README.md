@@ -16,7 +16,7 @@
     The future of automatic trading
     <br />
     <br />
-    <a href="https://algorithmcoin.netlify.app/#/">View Website</a>
+    <a href="https://algorithmcoin.netlify.app/">View Website</a>
     ·
     <a href="https://github.com/Algorithm-Coin/react-webapp/issues">Report Bug</a>
     ·
@@ -53,7 +53,7 @@
 
 ## About Algorithm Coin
 
-[![Product Name Screen Shot][product-screenshot]](https://larsvanderniet.nl)
+[![Product Name Screen Shot][product-screenshot]](https://algorithmcoin.netlify.app/)
 
 Our team at Algorithm Coin is working on an application to trade automatically like a day trader. Advanced software that uses AI and pattern recognition technology makes it possible to make big profits in the crypto market. A demo is currently being worked on. In the future this application will be available for Algorithm Coin holders.
 
@@ -101,7 +101,7 @@ $ npm run start
 
 ## Roadmap
 
-See the [open issues](https://github.com/larsniet/algorithm-coin/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/Algorithm-Coin/react-webapp/issues) for a list of proposed features (and known issues).
 
 <!-- CONTRIBUTING -->
 
@@ -127,4 +127,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Ruben Visser - [@rubenvisser22](https://twitter.com/rubenvisser22) - rubenvisser22@gmail.com
 
-Project Link: [https://github.com/larsniet/algorithm-coin](https://github.com/larsniet/algorithm-coin)
+Project Link: [https://github.com/Algorithm-Coin/react-webapp](https://github.com/Algorithm-Coin/react-webapp)
