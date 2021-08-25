@@ -1,30 +1,3 @@
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 12px;
-  font-family: 'Nunito', monospace;
-}
-
-html,
-body,
-#root {
-  flex: 1;
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
-#root > main {
-  flex: 1 1;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
 // Animations
 @keyframes verticalWobble {
   0% {
@@ -44,5 +17,17 @@ a {
   }
   to {
     background-color: rgba(13, 13, 44, 0.95);
+  }
+}
+@keyframes fadeInLeft {
+  from {
+    display: none;
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to {
+    display: block;
+    opacity: 1;
+    transform: translateX(0);
   }
 }
