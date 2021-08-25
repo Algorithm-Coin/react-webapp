@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { HashRouter } from 'react-router-dom';
+import * as serviceWorker from './serviceWorker';
 
 import 'reset-css';
 import 'normalize.css';
@@ -12,3 +13,5 @@ ReactDOM.render(
     </HashRouter>,
     document.getElementById('root')
 );
+
+serviceWorker.register();
