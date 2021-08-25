@@ -38,6 +38,18 @@ const HowToBuyWrapper = css`
         text-align: left;
         font-size: 16px;
     }
+    ${media.small}  {
+        p{
+            font-size: 12px;
+        }
+        h4{
+            font-size: 20px;
+        }
+        h1{
+            font-size: 35px;
+            padding: 5%;
+        }
+    }
 `;
 
 const TextContainer = css`

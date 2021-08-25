@@ -48,8 +48,23 @@ const RoadmapWrapper = css`
         text-align: left;
         font-size: 16px;
     }
+    
     ${media.large}  {
     padding: 10%;
+    }
+    ${media.small}  {
+        p{
+            font-size: 12px;
+        }
+        h4{
+            font-size: 20px;
+        }
+        h5{
+            font-size: 15px;
+        }
+        h1{
+            font-size: 35px;
+        }
     }
 `;
 
@@ -129,6 +144,10 @@ const icon = css`
     ${media.large}  {
     margin-left: 30%;
     }
+    ${media.small}  {
+    width: 40px;
+    height: 40px;
+    }
 `;
 const iconGrid = css`
     width: 80px;
@@ -139,12 +158,18 @@ const iconGrid = css`
         width: 0;
         margin-left: -65px;
     }
+    ${media.small}  {
+    margin-left: -30px;
+    }
 `;
 const info = css`
     margin-left: -300px;
     ${media.large}  {
     margin-left: 5%;
     padding-bottom: 30%;
+    }
+    ${media.small}  {
+    margin-left: 10%;
     }
 `;
 

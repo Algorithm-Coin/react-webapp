@@ -29,6 +29,14 @@ const MissionWrapper = css`
         font-weight: 600;
         letter-spacing: .0625em;
     }
+    ${media.small}  {
+        p{
+            font-size: 12px;
+        }
+        h4{
+            font-size: 20px;
+        }
+    }
 `;
 
 const TextContainer = css`
