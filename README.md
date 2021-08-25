@@ -1,13 +1,12 @@
-[![Contributors][contributors-shield]][contributors-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+![GitHub contributors](https://img.shields.io/github/contributors/Algorithm-Coin/react-webapp)
+![GitHub issues](https://img.shields.io/github/issues/Algorithm-Coin/react-webapp)[https://github.com/Algorithm-Coin/react-webapp/issues]
+![GitHub](https://img.shields.io/github/license/Algorithm-Coin/react-webapp?style=for-the-badge)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/59c8ca80-9c7c-4a2b-b397-2e79ea576d3f/deploy-status)](https://app.netlify.com/sites/elated-heisenberg-742c10/deploys)
 
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/larsniet/algorithm-coin">
+  <a href="https://github.com/Algorithm-Coin/react-webapp">
     <img src="src/assets/logo.png" alt="Logo" width="80" height="120">
   </a>
 
@@ -17,11 +16,11 @@
     The future of automatic trading
     <br />
     <br />
-    <a href="https://algorithmcoin.com">View Website</a>
+    <a href="https://algorithmcoin.netlify.app/#/">View Website</a>
     ·
-    <a href="https://github.com/larsniet/algorithm-coin/issues">Report Bug</a>
+    <a href="https://github.com/Algorithm-Coin/react-webapp/issues">Report Bug</a>
     ·
-    <a href="https://github.com/larsniet/algorithm-coin/issues">Request Feature</a>
+    <a href="https://github.com/Algorithm-Coin/react-webapp/issues">Request Feature</a>
   </p>
 </p>
 
