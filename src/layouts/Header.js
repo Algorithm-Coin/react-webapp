@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { NavLink, Link } from "react-router-dom";
 import { css } from '@emotion/react';
+
+import { Sling as Hamburger } from 'hamburger-react'
 import { FaInstagram, FaTwitter, FaBars } from 'react-icons/fa';
 
 import { Button } from '../components'
@@ -19,7 +21,7 @@ const HeaderStyle = css`
   top: 0;
 
   &.animateToFaded {
-    animation: animateToFaded 1s linear;
+    animation: animateToFaded .5s linear;
     animation-fill-mode: forwards;
   }
 
@@ -34,6 +36,9 @@ const HeaderStyle = css`
     color: #fff;
     font-size: 3rem;
   }
+  .bars {
+    display: none;
+  }
   .gray {
     color: #ccc;
   }
@@ -45,12 +50,6 @@ const HeaderStyle = css`
   }
   a:hover {
     opacity: 1;
-  }
-  .bars {
-    display: none;
-    color: #FFF;
-    font-size: 2rem;
-    z-index: 100;
   }
   nav {
     ul {
@@ -71,15 +70,8 @@ const HeaderStyle = css`
     }
   }
 
-  @media only screen and (max-width: 800px) {
-    padding: 0px;
-    .logo {
-      padding-left: 15px;
-      padding-top: 0px !important;
-    }
-  }
-
   ${media.small} {
+    padding: 0px;
     height: auto;
     min-height: 50px;
     display: block;
@@ -87,9 +79,10 @@ const HeaderStyle = css`
     .logo {
       width: 100%;
       display: block;
-      padding-top: 20px;
       margin: 0px;
       margin-left: -5px;
+      padding-left: 15px;
+      padding-top: 0px !important;
       a {
         padding: 20px 0px;
         font-size: 20px;
@@ -98,9 +91,12 @@ const HeaderStyle = css`
     .bars {
       display: inline-block;
       position: absolute;
-      top: 15px;
+      top: 6px;
       right: 10px;
       cursor: pointer;
+    }
+    .bars.closed {
+
     }
     ul.collapsed {
       width: 100%;
@@ -148,17 +144,44 @@ class Header extends Component {
     super(props);
     this.state = {
       isExpanded: false,
-      fadeHeader: true
+      fadeHeader: false
     };
   }
-  handleToggle = (e) => {
-    e.preventDefault();
-    this.setState({
-      isExpanded: !this.state.isExpanded,
-    });
+  handleToggle = () => {
+    // Toggle expanded state to show nav
+    this.setState({ isExpanded: !this.state.isExpanded });
+    // If the user scrolled further than 50px down
+    if (window.scrollY > 50) {
+      // Fade the header
+      this.setState({ fadeHeader: true });
+    }
+    // If the user scrolled less than 50px down
+    else {
+      // Toggle the header state
+      this.setState({ fadeHeader: !this.state.fadeHeader });
+    }
   }
   handleScroll = () => {
-    window.scrollY > 50 ? this.setState({ fadeHeader: true }) : this.setState({ fadeHeader: false });
+    // If the user scrolls further down than 50px
+    if (window.scrollY > 50) {
+      // If the nav is already expanded
+      if (this.state.isExpanded) {
+        // Do nothing (because handleToggle() takes care of it)
+        return;
+      }
+      // If the nav is not expanded, fade the header
+      this.setState({ fadeHeader: true });
+    }
+    // If the user scrolled less than 50px down
+    else {
+      // If the nav is already expanded
+      if (this.state.isExpanded) {
+        // Do nothing (because handleToggle() takes care of it)
+        return;
+      }
+      // If the nav is not expanded, unfade the header
+      this.setState({ fadeHeader: false });
+    }
   }
   componentDidMount() {
     window.addEventListener('scroll', this.handleScroll);
@@ -177,11 +200,16 @@ class Header extends Component {
           </Link>
         </div>
         <nav className="nav">
-          <FaBars
+          <div
             className="bars"
             aria-hidden="true"
-            onClick={e => this.handleToggle(e)}
-          />
+          >
+            <Hamburger
+              size={20}
+              toggled={isExpanded}
+              toggle={() => this.handleToggle()}
+            />
+          </div>
           <ul className={`collapsed ${isExpanded ? "is-expanded" : ""}`}>
             <NavLink activeClassName="active" to="/">
               <li>Mission</li>
