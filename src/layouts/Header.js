@@ -25,7 +25,7 @@ const HeaderStyle = css`
     animation-fill-mode: forwards;
   }
 
-  .socials svg {
+  .socials svg:first-child {
     margin-right: 20px;
     display: inline-block;
   }
@@ -60,6 +60,46 @@ const HeaderStyle = css`
     }
     a.active {
       color: #fdd700;
+    }
+  }
+
+  ${media.large} {
+    font-size: 11px;
+    .logo {
+      a {
+        font-size: 23px;
+      }
+    }
+    nav {
+      ul {
+        li {
+          a {
+            font-size: 13px;
+            padding: 10px 10px;
+          }
+        }
+      }
+    }
+  }
+
+  ${media.medium} {
+    padding: 0 20px 0;
+    height: auto;
+    font-size: 10px;
+
+    .logo {
+      a {
+        font-size: 18px;
+      }
+    }
+    nav {
+      ul {
+        li {
+          a {
+            font-size: 10px;
+          }
+        }
+      }
     }
   }
 
