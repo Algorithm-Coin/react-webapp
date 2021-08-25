@@ -25,7 +25,7 @@ const HeaderStyle = css`
     animation-fill-mode: forwards;
   }
 
-  .socials svg:first-child {
+  .socials svg:first-of-type {
     margin-right: 20px;
     display: inline-block;
   }
