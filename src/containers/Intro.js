@@ -31,6 +31,10 @@ const TextContainer = css`
     animation: verticalWobble 3s linear infinite;
     user-select: none;
   }
+
+  a {
+    margin-top: 40px;
+  }
 `;
 
 const particleParams = {
