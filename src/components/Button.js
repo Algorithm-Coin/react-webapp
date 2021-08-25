@@ -12,7 +12,6 @@ const ButtonStyle = css`
   padding: 15px 15px;
   text-transform: uppercase;
   display: inline-block;
-  margin-top: 2em;
 
   &:hover {
     border: 3px solid #FDD700;

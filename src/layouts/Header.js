@@ -1,6 +1,10 @@
 import React, { Component } from "react";
 import { NavLink, Link } from "react-router-dom";
 import { css } from '@emotion/react';
+import { FaInstagram, FaTwitter, FaBars } from 'react-icons/fa';
+
+import { Button } from '../components'
+import media from '../styles/media'
 
 const HeaderStyle = css`
   width: 100%;
@@ -42,7 +46,7 @@ const HeaderStyle = css`
   a:hover {
     opacity: 1;
   }
-  .fa-bars {
+  .bars {
     display: none;
     color: #FFF;
     font-size: 2rem;
@@ -52,18 +56,15 @@ const HeaderStyle = css`
     ul {
       display: flex;
       justify-content: space-between;
+      align-items: center;
     }
     li {
       margin: 0 15px;
       justify-content: space-between;
-      font-size: 1em;
+      font-size: 1.5em;
     }
     a {
-      font-size: 1em;
       text-decoration: none;
-      .active {
-        color: tomato;
-      }
     }
     a.active {
       color: #fdd700;
@@ -77,11 +78,12 @@ const HeaderStyle = css`
       padding-top: 0px !important;
     }
   }
-  @media only screen and (max-width: 600px) {
+
+  ${media.small} {
     height: auto;
     min-height: 50px;
     display: block;
-    position: relative;
+
     .logo {
       width: 100%;
       display: block;
@@ -90,12 +92,13 @@ const HeaderStyle = css`
       margin-left: -5px;
       a {
         padding: 20px 0px;
+        font-size: 20px;
       }
     }
-    .fa-bars {
+    .bars {
       display: inline-block;
       position: absolute;
-      top: 10px;
+      top: 15px;
       right: 10px;
       cursor: pointer;
     }
@@ -128,6 +131,7 @@ const HeaderStyle = css`
         -webkit-transition-timing-function: ease-in;
         -o-transition-timing-function: ease-in;
         transition-timing-function: ease-in;
+        align-items: normal;
       }
       li {
         padding: 15px 10px;
@@ -150,7 +154,7 @@ class Header extends Component {
   handleToggle = (e) => {
     e.preventDefault();
     this.setState({
-      isExpanded: !this.state.isExpanded
+      isExpanded: !this.state.isExpanded,
     });
   }
   handleScroll = () => {
@@ -173,21 +177,35 @@ class Header extends Component {
           </Link>
         </div>
         <nav className="nav">
-          <i
-            className="fa fa-bars"
+          <FaBars
+            className="bars"
             aria-hidden="true"
             onClick={e => this.handleToggle(e)}
           />
           <ul className={`collapsed ${isExpanded ? "is-expanded" : ""}`}>
             <NavLink activeClassName="active" to="/">
-              <li>home</li>
+              <li>Mission</li>
             </NavLink>
             <NavLink activeClassName="active" to="/about">
-              <li>about</li>
+              <li>Roadmap</li>
             </NavLink>
             <NavLink activeClassName="active" to="/contact">
-              <li>contact</li>
+              <li>How it works</li>
             </NavLink>
+            <NavLink activeClassName="active" to="/contact">
+              <li>Solution</li>
+            </NavLink>
+            <li>
+              <FaInstagram />
+            </li>
+            <li>
+              <FaTwitter />
+            </li>
+            <li>
+              <Button
+                text="how to buy"
+                href="https://google.nl" />
+            </li>
           </ul>
         </nav>
       </header>
