@@ -1,10 +1,10 @@
 <p align="center">
     <a href="https://github.com/badges/shields/graphs/contributors" alt="Contributors">
-        <img src="https://img.shields.io/github/contributors/Algorithm-Coin/react-webapp" /></a>
+        <img src="https://img.shields.io/github/contributors/Algorithm-Coin/react-webapp?label=Contributors" /></a>
     <a href="https://github.com/Algorithm-Coin/react-webapp/issues" alt="Issues">
-        <img src="https://img.shields.io/github/issues/Algorithm-Coin/react-webapp" /></a>
+        <img src="https://img.shields.io/github/issues/Algorithm-Coin/react-webapp?label=Issues" /></a>
     <a href="https://github.com/Algorithm-Coin/react-webapp/blob/main/LICENSE" alt="License">
-        <img src="https://img.shields.io/github/license/Algorithm-Coin/react-webapp" /></a>
+        <img src="https://img.shields.io/github/license/Algorithm-Coin/react-webapp?label=License" /></a>
     <a href="https://app.netlify.com/sites/algorithmcoin/deploys" alt="Contributors">
         <img src="https://api.netlify.com/api/v1/badges/59c8ca80-9c7c-4a2b-b397-2e79ea576d3f/deploy-status" /></a>
 </p>
