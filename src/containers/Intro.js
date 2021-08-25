@@ -36,10 +36,10 @@ const TextContainer = css`
 const particleParams = {
   particles: {
     number: {
-      value: 80,
+      value: 60,
       density: {
         enable: true,
-        value_area: 800
+        value_area: 600
       }
     },
     color: {
@@ -75,7 +75,7 @@ const particleParams = {
       random: true,
       anim: {
         enable: false,
-        speed: 40,
+        speed: 20,
         size_min: 0.1,
         sync: false
       }
@@ -89,17 +89,12 @@ const particleParams = {
     },
     move: {
       enable: true,
-      speed: 6,
+      speed: 1.3,
       direction: 'none',
       random: false,
       straight: false,
       out_mode: 'out',
       bounce: false,
-      attract: {
-        enable: false,
-        rotateX: 600,
-        rotateY: 1200
-      }
     }
   },
   interactivity: {
@@ -117,7 +112,7 @@ const particleParams = {
     },
     modes: {
       grab: {
-        distance: 400,
+        distance: 800,
         line_linked: {
           opacity: 1
         }
