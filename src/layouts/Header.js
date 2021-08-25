@@ -15,7 +15,6 @@ const HeaderStyle = css`
     justify-content: space-between;
     align-items: center;
     padding: 0px 100px 0;
-    height: 140px;
     position: fixed;
     top: 0;
 
