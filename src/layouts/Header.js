@@ -4,10 +4,8 @@ import { css } from '@emotion/react';
 
 import { Sling as Hamburger } from 'hamburger-react'
 import { FaInstagram, FaTwitter } from 'react-icons/fa';
-import media from '../styles/media';
-
 import { Button } from '../components'
-import media from '../styles/media'
+import media from '../styles/media';
 
 const HeaderStyle = css`
   width: 100%;
