@@ -35,6 +35,8 @@ const HowToBuyWrapper = css`
         cursor: pointer;
         color: #FDD700;
         border-bottom: 1px solid #FDD700;
+        text-align: left;
+        font-size: 16px;
     }
 `;
 
@@ -84,7 +86,8 @@ const HowToBuy = () => {
                 <div css={gridItem}>
                     <h4>Add Algorithm Coin (ALGRTHM) to both Trustwallet and Pancakeswap</h4>
                     <p>You will have to add your token both to Trustwallet and Pancakeswap inside Trustwallet. Here is more information about how to add a custom token:
-                        <a href="https://community.trustwallet.com/t/how-to-add-a-custom-token/213">https://community.trustwallet.com/t/how-to-add-a-custom-token/213</a> </p>
+                    </p>
+                    <a href="https://community.trustwallet.com/t/how-to-add-a-custom-token/213">https://community.trustwallet.com/t/how-to-add-a-custom-token/213</a>
                 </div>
             </div>
         </section>
