@@ -25,6 +25,11 @@ const HeaderStyle = css`
     animation-fill-mode: forwards;
   }
 
+  .socials svg {
+    margin-right: 20px;
+    display: inline-block;
+  }
+
   .logo a {
     padding-top: 33px;
     display: flex;
@@ -38,18 +43,6 @@ const HeaderStyle = css`
   }
   .bars {
     display: none;
-  }
-  .gray {
-    color: #ccc;
-  }
-  a {
-    color: #fff;
-    transition: all 0.6s;
-    color: #fff;
-    font-size: 1em;
-  }
-  a:hover {
-    opacity: 1;
   }
   nav {
     ul {
@@ -95,9 +88,6 @@ const HeaderStyle = css`
       right: 10px;
       cursor: pointer;
     }
-    .bars.closed {
-
-    }
     ul.collapsed {
       width: 100%;
       display: flex;
@@ -107,10 +97,10 @@ const HeaderStyle = css`
 
       overflow: hidden;
       max-height: 0;
-      -moz-transition-duration: 0.4s;
-      -webkit-transition-duration: 0.4s;
-      -o-transition-duration: 0.4s;
-      transition-duration: 0.4s;
+      -moz-transition-duration: 0.7s;
+      -webkit-transition-duration: 0.7s;
+      -o-transition-duration: 0.7s;
+      transition-duration: 0.7s;
       -moz-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
       -webkit-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
       -o-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
@@ -118,11 +108,11 @@ const HeaderStyle = css`
 
       &.is-expanded {
         overflow: hidden;
-        max-height: 500px; /* approximate max height */
-        -moz-transition-duration: 0.4s;
-        -webkit-transition-duration: 0.4s;
-        -o-transition-duration: 0.4s;
-        transition-duration: 0.4s;
+        max-height: 500px;
+        -moz-transition-duration: 0.7s;
+        -webkit-transition-duration: 0.7s;
+        -o-transition-duration: 0.7s;
+        transition-duration: 0.7s;
         -moz-transition-timing-function: ease-in;
         -webkit-transition-timing-function: ease-in;
         -o-transition-timing-function: ease-in;
@@ -133,6 +123,10 @@ const HeaderStyle = css`
         padding: 15px 10px;
         margin: 0px 0px;
         width: 100%;
+
+        a {
+          display: inherit;
+        }
       }
     }
   }
@@ -148,7 +142,7 @@ class Header extends Component {
     };
   }
   handleToggle = () => {
-    // Toggle expanded state to show nav
+    // Toggle expanded state to show/hide nav
     this.setState({ isExpanded: !this.state.isExpanded });
     // If the user scrolled further than 50px down
     if (window.scrollY > 50) {
@@ -223,10 +217,8 @@ class Header extends Component {
             <NavLink activeClassName="active" to="/contact">
               <li>Solution</li>
             </NavLink>
-            <li>
+            <li className="socials">
               <FaInstagram />
-            </li>
-            <li>
               <FaTwitter />
             </li>
             <li>
