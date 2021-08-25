@@ -60,7 +60,7 @@
 
 ## About Algorithm Coin
 
-[![Product Name Screen Shot][product-screenshot]](https://algorithmcoin.netlify.app/)
+[![Product Gif][https://github.com/Algorithm-Coin/react-webapp/blob/main/src/assets/algorithm-preview.gif]](https://algorithmcoin.netlify.app/)
 
 Our team at Algorithm Coin is working on an application to trade automatically like a day trader. Advanced software that uses AI and pattern recognition technology makes it possible to make big profits in the crypto market. A demo is currently being worked on. In the future this application will be available for Algorithm Coin holders.
 
