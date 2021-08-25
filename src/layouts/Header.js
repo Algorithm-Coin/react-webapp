@@ -3,7 +3,8 @@ import { NavLink, Link } from "react-router-dom";
 import { css } from '@emotion/react';
 
 import { Sling as Hamburger } from 'hamburger-react'
-import { FaInstagram, FaTwitter, FaBars } from 'react-icons/fa';
+import { FaInstagram, FaTwitter } from 'react-icons/fa';
+import media from '../styles/media';
 
 import { Button } from '../components'
 import media from '../styles/media'
