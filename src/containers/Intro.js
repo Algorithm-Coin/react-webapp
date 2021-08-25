@@ -13,7 +13,6 @@ const IntroWrapper = css`
   width: 100vw;
   height: 100vh;
   background-color: #0d0d2c;
-  top: -100px;
   user-select: none;
 `;
 
@@ -24,6 +23,7 @@ const TextContainer = css`
   transform: translate(-50%, -50%);
   z-index: 2;
   text-align: center;
+  margin-top: 80px;
 
   & img {
     position: relative;
