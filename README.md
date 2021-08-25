@@ -35,7 +35,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About Algorithm Coin</a>
+      <a href="#about-algorithm-coin">About Algorithm Coin</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -64,7 +64,6 @@
 Our team at Algorithm Coin is working on an application to trade automatically like a day trader. Advanced software that uses AI and pattern recognition technology makes it possible to make big profits in the crypto market. A demo is currently being worked on. In the future this application will be available for Algorithm Coin holders.
 
 In order to present the software we provide, we created this application.
-Here's why:
 
 ### Built With
 
