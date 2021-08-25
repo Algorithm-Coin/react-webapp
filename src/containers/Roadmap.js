@@ -140,7 +140,7 @@ const animatie = css`
 const icon = css`
     width: 80px;
     height: 80px;
-    margin-left: -130px;
+    margin-left: -135px;
     ${media.large}  {
     margin-left: 30%;
     }
