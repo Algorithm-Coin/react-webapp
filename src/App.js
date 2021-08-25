@@ -6,13 +6,13 @@ import ThemeProvider from './contexts/ThemeContext';
 import './styles/_index.scss';
 
 function App() {
-  return (
-    <ThemeProvider>
-      <AppLayout>
-        <Routes />
-      </AppLayout>
-    </ThemeProvider>
-  );
+    return (
+        <ThemeProvider>
+            <AppLayout>
+                <Routes />
+            </AppLayout>
+        </ThemeProvider>
+    );
 }
 
 export default App;

@@ -8,25 +8,25 @@ import colorMap from '../styles/palette';
 import { useThemeContext } from '../contexts/ThemeContext';
 
 const globalStyle = (theme) => css`
-  body {
-    ${colorMap.base[theme]}
-    transition-duration: 0.3s;
-    transition-timing-function: ease;
-    transition-property: border, background, color;
-  }
+    body {
+        ${colorMap.base[theme]}
+        transition-duration: 0.3s;
+        transition-timing-function: ease;
+        transition-property: border, background, color;
+    }
 `;
 
 const AppLayout = ({ children }) => {
-  const { theme } = useThemeContext();
+    const { theme } = useThemeContext();
 
-  return (
-    <>
-      <Global styles={[globalStyle(theme)]} />
-      <Header />
-      <main>{children}</main>
-      <Footer />
-    </>
-  );
+    return (
+        <>
+            <Global styles={[globalStyle(theme)]} />
+            <Header />
+            <main>{children}</main>
+            <Footer />
+        </>
+    );
 };
 
 export default AppLayout;
