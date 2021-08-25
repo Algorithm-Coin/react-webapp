@@ -92,31 +92,33 @@ const HeaderStyle = css`
       width: 100%;
       display: flex;
       flex-direction: column;
+      align-items: normal;
       justify-content: space-between;
+      opacity: 0;
 
       overflow: hidden;
       max-height: 0;
-      -moz-transition-duration: 0.3s;
-      -webkit-transition-duration: 0.3s;
-      -o-transition-duration: 0.3s;
-      transition-duration: 0.3s;
+      -moz-transition-duration: 0.7s;
+      -webkit-transition-duration: 0.7s;
+      -o-transition-duration: 0.7s;
+      transition-duration: 0.7s;
       -moz-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
       -webkit-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
       -o-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
       transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
 
       &.is-expanded {
+        opacity: 1;
         overflow: hidden;
         max-height: 500px;
         -moz-transition-duration: 0.7s;
         -webkit-transition-duration: 0.7s;
         -o-transition-duration: 0.7s;
         transition-duration: 0.7s;
-        -moz-transition-timing-function: ease-in-out;
-        -webkit-transition-timing-function: ease-in-out;
-        -o-transition-timing-function: ease-in-out;
-        transition-timing-function: ease-in-out;
-        align-items: normal;
+        -moz-transition-timing-function: ease-in;
+        -webkit-transition-timing-function: ease-in;
+        -o-transition-timing-function: ease-in;
+        transition-timing-function: ease-in;
       }
       li {
         padding: 15px 10px;
