@@ -130,6 +130,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Ruben Visser - [@rubenvisser22](https://twitter.com/rubenvisser22) - rubenvisser22@gmail.com
-
 Project Link: [https://github.com/Algorithm-Coin/react-webapp](https://github.com/Algorithm-Coin/react-webapp)
