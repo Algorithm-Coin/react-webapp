@@ -70,7 +70,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            hash: true,
+            hash: false,
             template: 'public/index.html',
             favicon: 'public/favicon.ico',
             minify: {
