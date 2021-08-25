@@ -42,6 +42,13 @@ const containerGrid = css`
     display: inline-grid;
     grid-template-columns: 1fr 1fr 1fr;
     width: 100%;
+
+    ${media.small}  {
+    grid-template-columns: 1fr 1fr;
+    }
+    ${media.xsmall}  {
+    grid-template-columns: 1fr;
+    }
 `;
 
 const gridItem = css`
@@ -49,6 +56,7 @@ const gridItem = css`
     width: 100%;
     height: auto;
 `;
+
 const foto = css`
     width: 250px;
     height: 200px;

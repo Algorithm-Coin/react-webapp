@@ -60,6 +60,9 @@ const containerGrid = css`
 display: inline-grid;
 grid-template-columns: 1fr 1fr;
 width: 100%;
+    ${media.medium}  {
+    grid-template-columns: 1fr;
+    }
 `;
 const containerGrid2 = css`
 display: inline-grid;
@@ -68,10 +71,14 @@ width: 100%;
 height: 250px;
 `;
 const gridItem = css`
-padding-left: 3%;
-padding-right: 3%;
-width: 100%;
-height: auto;
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 100%;
+    height: auto;
+
+    ${media.medium}  {
+    display: none;
+    }
 `;
 const gridItem2 = css`
 padding-left: 3%;
@@ -79,6 +86,9 @@ padding-right: 3%;
 width: 100%;
 height: auto;
 border-left: 2px dashed #FDD700;
+    ${media.medium}  {
+    margin-left: 10%;
+    }
 `;
 const animatie = css`
     width: 650px;
@@ -88,11 +98,18 @@ const animatie = css`
     top: 20%;
     left: 15%;
     position: relative;
+
+    ${media.xlarge}  {
+    width: 400px;
+    }
 `;
 const icon = css`
     width: 80px;
     height: 80px;
     margin-left: -130px;
+    ${media.medium}  {
+    margin-right: 20%;
+    }
 `;
 const iconGrid = css`
     width: 80px;

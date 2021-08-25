@@ -50,6 +50,13 @@ const containerGrid = css`
 display: inline-grid;
 grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 width: 100%;
+
+    ${media.medium}  {
+    grid-template-columns: 1fr 1fr 1fr!important;
+    }
+    ${media.small}  {
+    grid-template-columns: 1fr 1fr!important;
+    }
 `;
 
 const gridItem = css`
