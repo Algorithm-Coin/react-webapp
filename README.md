@@ -13,7 +13,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/Algorithm-Coin/react-webapp">
-    <img src="src/assets/medialogo.png" alt="Logo" width="80" height="120">
+    <img src="src/assets/media/logo.png" alt="Logo" width="80" height="120">
   </a>
 
   <h3 align="center">Algorithm Coin</h3>
