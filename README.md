@@ -1,6 +1,6 @@
 <p align="center">
     <a href="" alt="Build"> 
-        <img alt="GitHub Workflow Status" src="https://img.shields.io/github/workflow/status/Algorithm-Coin/react-webapp/codeql-analysis" /></a
+        <img alt="GitHub Workflow Status" src="https://github.com/Algorithm-Coin/react-webapp/actions/workflows/codeql-analysis.yml/badge.svg" /></a
     <a href="https://github.com/badges/shields/graphs/contributors" alt="Contributors">
         <img src="https://img.shields.io/github/contributors/Algorithm-Coin/react-webapp?label=Contributors" /></a>
     <a href="https://github.com/Algorithm-Coin/react-webapp/issues" alt="Issues">
