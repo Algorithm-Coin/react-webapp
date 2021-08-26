@@ -1,8 +1,3 @@
-window.process = {
-    env: {
-        NODE_ENV: 'production',
-    },
-};
 
 const isLocalhost = Boolean(
     window.location.hostname === 'localhost' ||

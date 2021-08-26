@@ -1,25 +1,15 @@
 {
-  "short_name": "Algorithm coin",
-  "name": "The future of automatic trading",
+  "name": "Algorithm Coin",
+  "short_name": "Algrthm",
+  "lang": "en-EN",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#0d0d2c",
   "icons": [
     {
       "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
+      "sizes": "112x112",
       "type": "image/x-icon"
-    },
-    {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
     }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#0d0d2c",
-  "background_color": "#0d0d2c"
+  ]
 }

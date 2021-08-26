@@ -1,10 +1,12 @@
 const { resolve } = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const WorkboxPlugin = require('workbox-webpack-plugin');
 const TerserWebpackPlugin = require('terser-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 const prod = process.env.NODE_ENV === 'production';
+const url = process.env.PUBLIC_URL === 'http://localhost:8080';
 
 const loaders = {
     html: {
@@ -76,6 +78,12 @@ module.exports = {
             minify: {
                 collapseWhitespace: true,
             },
+        }),
+        new WorkboxPlugin.GenerateSW({
+            // these options encourage the ServiceWorkers to get in there fast
+            // and not allow any straggling "old" SWs to hang around
+            clientsClaim: true,
+            skipWaiting: true,
         }),
         new CleanWebpackPlugin(),
         ...(prod
