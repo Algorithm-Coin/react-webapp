@@ -4,6 +4,7 @@ import { css } from '@emotion/react';
 import Particles from 'react-particles-js';
 import { Button } from '../components';
 import logo from '../assets/media/logo.png';
+import media from '../styles/media';
 
 const IntroWrapper = css`
     position: relative;
@@ -11,6 +12,10 @@ const IntroWrapper = css`
     height: 100vh;
     background-color: #0d0d2c;
     user-select: none;
+
+    #tsparticles {
+        height: 100%;
+    }
 `;
 
 const TextContainer = css`
@@ -20,7 +25,12 @@ const TextContainer = css`
     transform: translate(-50%, -50%);
     z-index: 2;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 100px;
+    width: 100%;
+
+    ${media.medium} {
+        margin-top: 50px;
+    }
 
     & img {
         position: relative;

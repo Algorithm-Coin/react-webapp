@@ -6,7 +6,6 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 const prod = process.env.NODE_ENV === 'production';
-const url = process.env.PUBLIC_URL === 'http://localhost:8080';
 
 const loaders = {
     html: {
