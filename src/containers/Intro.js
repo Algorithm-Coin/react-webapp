@@ -27,6 +27,7 @@ const TextContainer = css`
     text-align: center;
     margin-top: 80px;
     width: 100%;
+    pointer-events: none;
 
     ${media.medium} {
         margin-top: 50px;
@@ -41,6 +42,7 @@ const TextContainer = css`
 
     a {
         margin-top: 40px;
+        pointer-events: all;
     }
 `;
 
