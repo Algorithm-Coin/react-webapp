@@ -17,6 +17,7 @@ body,
 }
 
 #root > main {
+    overflow-x: hidden;
     flex: 1 1;
 }
 

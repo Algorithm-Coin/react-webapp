@@ -184,7 +184,7 @@ const HashLink = (props) => {
     return (
         <Link
             activeClass="active"
-            to={props.section}
+            to={props.section.toLowerCase().replace(/\s/g, '')}
             spy={true}
             smooth={true}
             hashSpy={true}
@@ -246,14 +246,6 @@ class Header extends Component {
     scrollToTop = () => {
         animateScroll.scrollToTop();
     };
-    goToSection = (section) => {
-        scroller.scrollTo(section, {
-            duration: 1500,
-            delay: 100,
-            smooth: 'easeInOutQuint',
-            containerId: 'ContainerElementID',
-        });
-    };
     componentDidMount() {
         window.addEventListener('scroll', this.handleScroll);
     }
@@ -277,49 +269,10 @@ class Header extends Component {
                         />
                     </div>
                     <ul className={`collapsed ${isExpanded ? 'is-expanded' : ''}`}>
-                        <HashLink section="mission" />
-                        <Link
-                            activeClass="active"
-                            to="roadmap"
-                            spy={true}
-                            smooth={true}
-                            hashSpy={true}
-                            offset={-50}
-                            duration={500}
-                            isDynamic={true}
-                            ignoreCancelEvents={false}
-                            spyThrottle={500}
-                        >
-                            <li>Roadmap</li>
-                        </Link>
-                        <Link
-                            activeClass="active"
-                            to="howitworks"
-                            spy={true}
-                            smooth={true}
-                            hashSpy={true}
-                            offset={50}
-                            duration={500}
-                            isDynamic={true}
-                            ignoreCancelEvents={false}
-                            spyThrottle={500}
-                        >
-                            <li>How it works</li>
-                        </Link>
-                        <Link
-                            activeClass="active"
-                            to="solution"
-                            spy={true}
-                            smooth={true}
-                            hashSpy={true}
-                            offset={50}
-                            duration={500}
-                            isDynamic={true}
-                            ignoreCancelEvents={false}
-                            spyThrottle={500}
-                        >
-                            <li>Solution</li>
-                        </Link>
+                        <HashLink section="Mission" />
+                        <HashLink section="Roadmap" />
+                        <HashLink section="How it works" />
+                        <HashLink section="Solution" />
                         <li className="socials">
                             <FaInstagram />
                             <FaTwitter />
