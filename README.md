@@ -90,7 +90,7 @@ Most people cloning this repository will have NPM/Yarn installed, but just in ca
   npm install npm@latest -g
   ```
   
-- Yarn
+- Install Yarn
   ```sh
   npm install --global yarn
   ```
