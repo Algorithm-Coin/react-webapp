@@ -85,12 +85,12 @@ Most people cloning this repository will have NPM/Yarn installed, but just in ca
 
 - Follow [this guide](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) by NPM to install NPM on your OS
 
-- update npm to latest version (if needed)
+- Update NPM to latest version (if needed)
   ```sh
   npm install npm@latest -g
   ```
   
-- yarn
+- Yarn
   ```sh
   npm install --global yarn
   ```
