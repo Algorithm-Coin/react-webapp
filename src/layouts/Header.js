@@ -24,9 +24,8 @@ const HeaderStyle = css`
         animation-fill-mode: forwards;
     }
 
-    .socials svg:first-of-type {
+    .socials a svg:first-of-type {
         margin-right: 20px;
-        display: inline-block;
     }
 
     .logo:hover {
@@ -79,8 +78,8 @@ const HeaderStyle = css`
         }
         nav {
             ul {
-                li {
-                    a {
+                li:last-child {
+                    a:last-child {
                         font-size: 13px;
                         padding: 10px 10px;
                     }
@@ -102,8 +101,9 @@ const HeaderStyle = css`
         nav {
             ul {
                 li {
+                    margin: 0 12px;
                     a {
-                        font-size: 10px;
+                        font-size: 16px;
                     }
                 }
             }
@@ -167,13 +167,20 @@ const HeaderStyle = css`
                 -o-transition-timing-function: ease-in;
                 transition-timing-function: ease-in;
             }
+
+            li:last-child {
+                a:last-child {
+                    display: inherit;
+                }
+            }
+
             li {
                 padding: 15px 10px;
                 margin: 0px 0px;
                 width: 100%;
 
                 a {
-                    display: inherit;
+                    display: inline-block;
                 }
             }
         }
