@@ -80,9 +80,6 @@ const corners = css`
     background-repeat: no-repeat;
     background-size: 30px 30px;
 `;
-// h4 = css`
-//     font-size: 1.5rem;
-// `;
 const Mission = () => {
     return (
         <section css={MissionWrapper}>
