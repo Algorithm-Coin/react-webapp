@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { NavLink, Link } from 'react-router-dom';
 import { css } from '@emotion/react';
+import { animateScroll, Link } from 'react-scroll';
 
 import { Sling as Hamburger } from 'hamburger-react';
 import { FaInstagram, FaTwitter } from 'react-icons/fa';
@@ -15,7 +15,7 @@ const HeaderStyle = css`
     justify-content: space-between;
     align-items: center;
     padding: 0px 100px 0;
-    height: 140px;
+    height: 100px;
     position: fixed;
     top: 0;
 
@@ -29,6 +29,9 @@ const HeaderStyle = css`
         display: inline-block;
     }
 
+    .logo:hover {
+        cursor: pointer;
+    }
     .logo a {
         padding-top: 33px;
         display: flex;
@@ -56,6 +59,11 @@ const HeaderStyle = css`
         }
         a {
             text-decoration: none;
+            transition: 0.3s all ease;
+        }
+        a:hover {
+            color: #fdd700;
+            cursor: pointer;
         }
         a.active {
             color: #fdd700;
@@ -172,6 +180,25 @@ const HeaderStyle = css`
     }
 `;
 
+const HashLink = (props) => {
+    return (
+        <Link
+            activeClass="active"
+            to={props.section.toLowerCase().replace(/\s/g, '')}
+            spy={true}
+            smooth={true}
+            hashSpy={true}
+            offset={-50}
+            duration={500}
+            isDynamic={true}
+            ignoreCancelEvents={false}
+            spyThrottle={500}
+        >
+            <li>{props.section}</li>
+        </Link>
+    );
+};
+
 class Header extends Component {
     constructor(props) {
         super(props);
@@ -216,6 +243,9 @@ class Header extends Component {
             this.setState({ fadeHeader: false });
         }
     };
+    scrollToTop = () => {
+        animateScroll.scrollToTop();
+    };
     componentDidMount() {
         window.addEventListener('scroll', this.handleScroll);
     }
@@ -228,7 +258,7 @@ class Header extends Component {
         return (
             <header css={HeaderStyle} className={`${fadeHeader ? 'animateToFaded' : ''}`}>
                 <div className="logo">
-                    <Link to="/">Algorithm Coin</Link>
+                    <a onClick={this.scrollToTop}>Algorithm Coin</a>
                 </div>
                 <nav className="nav">
                     <div className="bars" aria-hidden="true">
@@ -239,21 +269,17 @@ class Header extends Component {
                         />
                     </div>
                     <ul className={`collapsed ${isExpanded ? 'is-expanded' : ''}`}>
-                        <NavLink activeClassName="active" to="/">
-                            <li>Mission</li>
-                        </NavLink>
-                        <NavLink activeClassName="active" to="/about">
-                            <li>Roadmap</li>
-                        </NavLink>
-                        <NavLink activeClassName="active" to="/contact">
-                            <li>How it works</li>
-                        </NavLink>
-                        <NavLink activeClassName="active" to="/contact">
-                            <li>Solution</li>
-                        </NavLink>
+                        <HashLink section="Mission" />
+                        <HashLink section="Roadmap" />
+                        <HashLink section="How it works" />
+                        <HashLink section="Solution" />
                         <li className="socials">
-                            <FaInstagram />
-                            <FaTwitter />
+                            <a href="https://www.instagram.com/algorithmcoin/" target="_blank">
+                                <FaInstagram />
+                            </a>
+                            <a href="https://twitter.com/algorithmcoin/" target="_blank">
+                                <FaTwitter />
+                            </a>
                         </li>
                         <li>
                             <Button text="how to buy" href="https://google.nl" />

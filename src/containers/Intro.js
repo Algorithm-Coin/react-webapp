@@ -25,8 +25,9 @@ const TextContainer = css`
     transform: translate(-50%, -50%);
     z-index: 2;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 80px;
     width: 100%;
+    pointer-events: none;
 
     ${media.medium} {
         margin-top: 50px;
@@ -41,6 +42,7 @@ const TextContainer = css`
 
     a {
         margin-top: 40px;
+        pointer-events: all;
     }
 `;
 

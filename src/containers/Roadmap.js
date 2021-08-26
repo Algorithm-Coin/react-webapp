@@ -116,7 +116,7 @@ const gridItem2 = css`
     padding-right: 3%;
     width: 100%;
     height: auto;
-    border-left: 2px dashed #fdd700;
+    border-left: 5px dotted #fdd700;
 
     ${media.xlarge} {
         grid-area: grootgedeelte;
@@ -185,9 +185,9 @@ const Roadmap = () => {
         });
     }, []);
     return (
-        <section css={RoadmapWrapper}>
+        <section css={RoadmapWrapper} id="roadmap">
             <div css={TextContainer}>
-                <h1 id="Roadmap">Roadmap</h1>
+                <h1>Roadmap</h1>
             </div>
             <div css={containerGrid}>
                 <div css={gridItem}>

@@ -85,9 +85,9 @@ const corners = css`
 // `;
 const Mission = () => {
     return (
-        <section css={MissionWrapper}>
+        <section css={MissionWrapper} id="mission">
             <div css={TextContainer}>
-                <h1 id="Mission">Mission</h1>
+                <h1>Mission</h1>
             </div>
             <div css={containerGrid}>
                 <div css={corners}>
