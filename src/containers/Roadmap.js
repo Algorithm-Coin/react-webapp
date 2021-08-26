@@ -185,9 +185,9 @@ const Roadmap = () => {
         });
     }, []);
     return (
-        <section css={RoadmapWrapper}>
+        <section css={RoadmapWrapper} id="roadmap">
             <div css={TextContainer}>
-                <h1 id="Roadmap">Roadmap</h1>
+                <h1>Roadmap</h1>
             </div>
             <div css={containerGrid}>
                 <div css={gridItem}>
