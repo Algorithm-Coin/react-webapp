@@ -83,7 +83,9 @@ Below are the steps required to run this application locally.
 
 Most people cloning this repository will have NPM/Yarn installed, but just in case you don't, here are the instructions :).
 
-- npm
+- Follow [this guide](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) by NPM to install NPM on your OS
+
+- update npm to latest version (if needed)
   ```sh
   npm install npm@latest -g
   ```
