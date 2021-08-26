@@ -116,7 +116,7 @@ const gridItem2 = css`
     padding-right: 3%;
     width: 100%;
     height: auto;
-    border-left: 2px dashed #fdd700;
+    border-left: 5px dotted #fdd700;
 
     ${media.xlarge} {
         grid-area: grootgedeelte;
