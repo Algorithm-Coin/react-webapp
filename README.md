@@ -81,11 +81,16 @@ Below are the steps required to run this application locally.
 
 ### Prerequisites
 
-Most people cloning this repository will have NPM installed, but just in case :).
+Most people cloning this repository will have NPM/Yarn installed, but just in case you don't, here are the instructions :).
 
 - npm
   ```sh
   npm install npm@latest -g
+  ```
+  
+- yarn
+  ```sh
+  npm install --global yarn
   ```
 
 ### Installation
@@ -98,10 +103,10 @@ $ git clone git@github.com:Algorithm-Coin/react-webapp.git
 $ cd react-webapp
 
 # Install dependencies
-$ npm install
+$ yarn
 
 # Start the app
-$ npm run start
+$ yarn start
 ```
 
 <!-- ROADMAP -->
