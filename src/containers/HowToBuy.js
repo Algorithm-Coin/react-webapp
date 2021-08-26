@@ -82,9 +82,9 @@ const gridItem = css`
 
 const HowToBuy = () => {
     return (
-        <section css={HowToBuyWrapper}>
+        <section css={HowToBuyWrapper} id="howtobuy">
             <div css={TextContainer}>
-                <h1 id="HowToBuy">How To Buy</h1>
+                <h1>How To Buy</h1>
             </div>
             <div css={containerGrid}>
                 <div css={gridItem}>

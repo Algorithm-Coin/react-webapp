@@ -274,8 +274,12 @@ class Header extends Component {
                         <HashLink section="How it works" />
                         <HashLink section="Solution" />
                         <li className="socials">
-                            <FaInstagram />
-                            <FaTwitter />
+                            <a href="https://www.instagram.com/algorithmcoin/" target="_blank">
+                                <FaInstagram />
+                            </a>
+                            <a href="https://twitter.com/algorithmcoin/" target="_blank">
+                                <FaTwitter />
+                            </a>
                         </li>
                         <li>
                             <Button text="how to buy" href="https://google.nl" />
