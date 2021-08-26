@@ -26,7 +26,7 @@ const HeaderStyle = css`
     .socials svg:first-of-type {
         margin-right: 20px;
         display: inline-block;
-    }
+    } 
 
     .logo a {
         padding-top: 33px;
