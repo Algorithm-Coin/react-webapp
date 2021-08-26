@@ -11,6 +11,10 @@ const IntroWrapper = css`
     height: 100vh;
     background-color: #0d0d2c;
     user-select: none;
+
+    #tsparticles {
+        height: 100%;
+    }
 `;
 
 const TextContainer = css`
