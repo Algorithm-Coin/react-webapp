@@ -1,6 +1,6 @@
 import React from 'react';
 import { css } from '@emotion/react';
-import { HowToBuy, Intro, Mission, Roadmap, Problem } from '../containers';
+import { HowToBuy, Intro, Mission, Roadmap, Problem, Solution } from '../containers';
 
 const HomePageStyle = css`
     h1 {
@@ -21,6 +21,7 @@ const HomePage = () => {
             <HowToBuy />
             <Roadmap />
             <Problem />
+            <Solution />
         </div>
     );
 };

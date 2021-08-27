@@ -13,7 +13,7 @@ const HowToBuyWrapper = css`
         font-size: 4rem;
         font-weight: 500;
         text-align: center;
-        background-color: rgb(23, 23, 73);
+        background-color: #141438;
         padding: 2%;
     }
 
@@ -54,7 +54,6 @@ const HowToBuyWrapper = css`
 const TextContainer = css`
     text-align: center;
     color: white;
-    background-color: rgba(13, 13, 44);
     margin-bottom: 0px;
 `;
 const containerGrid = css`
@@ -77,7 +76,7 @@ const gridItem = css`
     padding: 3%;
     width: 100%;
     height: auto;
-    background-color: rgb(23, 23, 73);
+    background-color: #141438;
 `;
 
 const HowToBuy = () => {
