@@ -88,11 +88,11 @@ const animatie = css`
 `;
 const gridAnimatie = css`
     position: relative;
-    height: 70%;
+    height: 100%;
     z-index: 3 !important;
 `;
 const containerText = css`
-    height: 50%;
+    height: 100%;
     padding: 2%;
     flex: 1;
     ${media.small} {
@@ -125,7 +125,7 @@ const Problem = () => {
                 <div css={secondContainer}>
                     <div css={containerText}>
                         <h1 id="problem">Problem</h1>
-                        <h4>Algo Trading</h4>
+                        <h4>Algorithm Trading</h4>
                         <p>Trading via algorithms is indispensable. Advanced mathematical models can make data-driven decisions at lightning speed. The price reactions to published economic figures are often striking. Right now, only the elite have the best algorithms on the crypto market. </p>
                         <h4>Transparency</h4>
                         <p>Many coins and companies are not transparent. This leads to speculation and ambiguity. This is not the case with Algorithm Coin, because we fight for transparency.</p>

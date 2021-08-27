@@ -113,10 +113,10 @@ const Solution = () => {
                     </div>
                     <div css={containerText}>
                         <h1 id="Solution">Solution</h1>
-                        <h4>Algo Trading</h4>
-                        <p>Trading via algorithms is indispensable. Advanced mathematical models can make data-driven decisions at lightning speed. The price reactions to published economic figures are often striking. Right now, only the elite have the best algorithms on the crypto market. </p>
+                        <h4>Algorithm Trading is possible for everyone</h4>
+                        <p>Our team wants to make it possible for everyone to day trade via an application. The application will start day trading through our algorithm 24 hours a day and will only be availleble for Algorithm Coin holders.</p>
                         <h4>Transparency</h4>
-                        <p>Many coins and companies are not transparent. This leads to speculation and ambiguity. This is not the case with Algorithm Coin, because we fight for transparency.</p>
+                        <p></p>
                     </div>
                 </div>
             </div>
