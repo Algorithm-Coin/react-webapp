@@ -1,70 +1,19 @@
 import React from 'react';
 import { css } from '@emotion/react';
-import media from '../styles/media';
 import lottie from 'lottie-web';
-import businessMen from '../assets/media/solution/businessMen.json';
+
+import media from '../styles/media';
+import businessMen from '../assets/media/problem/businessMen.json';
 
 const SolutionWrapper = css`
-    background-color: #0d0d2c;
+    background-color: rgba(13, 13, 44);
 
-    svg {
-        width: 550px !important;
-        height: 100% !important;
-        z-index: 2;
-    }
-    ${media.medium} {
-        svg {
-            width: 400px !important;
+    ${media.small} {
+        flex-direction: column-reverse;
+
+        .lottie-animation {
+            width: 250px;
         }
-        ${media.small} {
-            p {
-                font-size: 12px;
-            }
-            h4 {
-                font-size: 20px;
-            }
-            svg {
-                width: 250px !important;
-            }
-        }
-    }
-`;
-const Container = css`
-    color: white;
-    margin-bottom: 0px !important;
-    height: 100vh;
-    ${media.small} {
-        height: auto;
-    }
-`;
-const animatie = css`
-    height: 100%;
-    border-style: none;
-    flex: 1;
-`;
-const gridAnimatie = css`
-    position: relative;
-    height: 70%;
-    z-index: 3 !important;
-`;
-const containerText = css`
-    height: 50%;
-    padding: 2%;
-    flex: 1;
-    ${media.small} {
-        flex: 0;
-        padding: 3%;
-    }
-`;
-const secondContainer = css`
-    display: flex;
-    margin: 0 auto;
-    height: 70vh;
-    align-items: center;
-    /* flex-direction: column-reverse !important; */
-    ${media.small} {
-        display: block !important;
-        height: auto;
     }
 `;
 
@@ -76,25 +25,29 @@ const Solution = () => {
         });
     }, []);
     return (
-        <section className="container" css={SolutionWrapper} id="solution">
-            <div css={Container}>
-                <div css={secondContainer}>
-                    <div css={gridAnimatie}>
-                        <div css={animatie} id="businessMen2" alt="foto van zakenmannen" />
-                    </div>
-                    <div css={containerText}>
-                        <h1>Solution</h1>
-                        <h4>Algorithm Trading is possible for everyone</h4>
-                        <p>
-                            Our team wants to make it possible for everyone to day trade via an
-                            application. The application will start day trading through our
-                            algorithm 24 hours a day and will only be availleble for Algorithm Coin
-                            holders.
-                        </p>
-                        <h4>Transparency</h4>
-                        <p></p>
-                    </div>
-                </div>
+        <section className="flex-container" css={SolutionWrapper} id="solution">
+            <div className="flex-item">
+                <div
+                    className="centered lottie-animation"
+                    id="businessMen2"
+                    alt="Animation of businessmen"
+                />
+            </div>
+            <div className="flex-item">
+                <h1>Solution</h1>
+                <h4>Algorithm Trading</h4>
+                <p>
+                    Trading via algorithms is indispensable. Advanced mathematical models can make
+                    data-driven decisions at lightning speed. The price reactions to published
+                    economic figures are often striking. Right now, only the elite have the best
+                    algorithms on the crypto market.
+                </p>
+                <h4>Transparency</h4>
+                <p>
+                    Many coins and companies are not transparent. This leads to speculation and
+                    ambiguity. This is not the case with Algorithm Coin, because we fight for
+                    transparency.
+                </p>
             </div>
         </section>
     );

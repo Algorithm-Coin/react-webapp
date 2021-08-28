@@ -9,42 +9,10 @@ import media from '../styles/media';
 const RoadmapWrapper = css`
     font-family: 'Nunito', monospace;
     padding: 2%;
-    text-align: center;
     background-color: rgba(13, 13, 44);
-    line-height: 2rem;
 
     h1 {
-        font-size: 4rem;
-        font-weight: 500;
-        text-align: center;
-        padding: 2%;
-    }
-
-    h4 {
-        font-size: 24px;
-        padding-bottom: 2%;
-        line-height: 3rem;
-        text-align: left;
-        color: #fdd700;
-    }
-    h5 {
-        font-size: 20px;
-        padding-bottom: 2%;
-        text-align: left;
-        font-weight: bold;
-    }
-    p {
-        text-align: left;
-        font-size: 16px;
-        font-weight: 600;
-        letter-spacing: 0.0625em;
-    }
-    a {
-        cursor: pointer;
-        color: #fdd700;
-        border-bottom: 1px solid #fdd700;
-        text-align: left;
-        font-size: 16px;
+        margin: 4rem 0;
     }
 
     ${media.large} {
@@ -155,6 +123,7 @@ const iconGrid = css`
     width: 80px;
     height: 80px;
     top: -10px;
+    text-align: center;
 
     ${media.large} {
         float: left;
