@@ -1,29 +1,18 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { css } from '@emotion/react';
-import { palette } from '../styles/palette';
-import { useThemeContext } from '../contexts/ThemeContext';
 import media from '../styles/media';
 
-const ErrorPageStyle = (isLight) => css`
+const ErrorPageStyle = () => css`
     flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 
-    h1 {
-        color: red;
-        font-size: 3rem;
-        font-weight: 600;
-        color: ${isLight ? palette.red[6] : palette.red[5]};
-    }
     img {
         margin: 1rem auto;
         max-width: 35%;
-    }
-    a {
-        color: ${isLight ? palette.blue[6] : palette.blue[4]};
     }
 
     ${media.medium} {
@@ -44,10 +33,8 @@ const ErrorPageStyle = (isLight) => css`
 `;
 
 const ErrorPage = () => {
-    const { isLight } = useThemeContext();
-
     return (
-        <div css={[ErrorPageStyle(isLight)]}>
+        <div css={ErrorPageStyle()}>
             <h1>Page Not Found.</h1>
             <Link to="/">go Home</Link>
         </div>

@@ -6,12 +6,8 @@ import monitorGraphs from '../assets/media/mission/monitor-graphs.svg';
 import graphs from '../assets/media/mission/graphs.svg';
 
 const MissionWrapper = css`
-    font-family: 'Nunito', monospace;
-    padding-left: 2%;
-    padding-right: 2%;
-    text-align: center;
-    padding-bottom: 2%;
     background-color: rgba(13, 13, 44);
+    text-align: center;
 
     h1 {
         font-size: 4rem;
@@ -82,7 +78,7 @@ const corners = css`
 `;
 const Mission = () => {
     return (
-        <section css={MissionWrapper}>
+        <section className="container" css={MissionWrapper}>
             <div css={TextContainer}>
                 <h1 id="Mission">Mission</h1>
             </div>

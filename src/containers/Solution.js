@@ -5,21 +5,14 @@ import lottie from 'lottie-web';
 import businessMen from '../assets/media/Solution/businessMen.json';
 
 const SolutionWrapper = css`
-    font-family: 'Nunito', monospace;
-    padding-left: 2%;
-    padding-right: 2%;
-    text-align: left !important;
-    padding-bottom: 2%;
-    position: relative;
-    background-color: #141438;
-    display: flex;
+    background-color: #0d0d2c;
 
     h1 {
         font-size: 3rem;
         font-weight: 500;
         text-align: left !important;
         margin-top: 0 !important;
-        margin-bottom: 1%!important;
+        margin-bottom: 1% !important;
         top: 50%;
     }
 
@@ -27,7 +20,7 @@ const SolutionWrapper = css`
         font-size: 24px;
         padding: 2%;
         padding-left: 0;
-        color: #FDD700;
+        color: #fdd700;
     }
     p {
         font-size: 16px;
@@ -35,26 +28,26 @@ const SolutionWrapper = css`
         font-weight: 600;
         letter-spacing: 0.0625em;
     }
-    svg{
+    svg {
         width: 550px !important;
         height: 100% !important;
         z-index: 2;
     }
     ${media.medium} {
-        svg{
+        svg {
             width: 400px !important;
         }
-    ${media.small} {
-        p {
-            font-size: 12px;
+        ${media.small} {
+            p {
+                font-size: 12px;
+            }
+            h4 {
+                font-size: 20px;
+            }
+            svg {
+                width: 250px !important;
+            }
         }
-        h4 {
-            font-size: 20px;
-        }
-        svg{
-            width: 250px !important;
-        }
-    }
     }
 `;
 const Container = css`
@@ -96,7 +89,6 @@ const secondContainer = css`
     }
 `;
 
-
 const Solution = () => {
     React.useEffect(() => {
         lottie.loadAnimation({
@@ -105,16 +97,21 @@ const Solution = () => {
         });
     }, []);
     return (
-        <section css={SolutionWrapper}>
+        <section className="container" css={SolutionWrapper}>
             <div css={Container}>
                 <div css={secondContainer}>
                     <div css={gridAnimatie}>
-                        <div css={animatie} id="businessMen2" alt="foto van zakenmannen"/>
+                        <div css={animatie} id="businessMen2" alt="foto van zakenmannen" />
                     </div>
                     <div css={containerText}>
                         <h1 id="Solution">Solution</h1>
                         <h4>Algorithm Trading is possible for everyone</h4>
-                        <p>Our team wants to make it possible for everyone to day trade via an application. The application will start day trading through our algorithm 24 hours a day and will only be availleble for Algorithm Coin holders.</p>
+                        <p>
+                            Our team wants to make it possible for everyone to day trade via an
+                            application. The application will start day trading through our
+                            algorithm 24 hours a day and will only be availleble for Algorithm Coin
+                            holders.
+                        </p>
                         <h4>Transparency</h4>
                         <p></p>
                     </div>
