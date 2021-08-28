@@ -7,27 +7,6 @@ import businessMen from '../assets/media/solution/businessMen.json';
 const SolutionWrapper = css`
     background-color: #0d0d2c;
 
-    h1 {
-        font-size: 3rem;
-        font-weight: 500;
-        text-align: left !important;
-        margin-top: 0 !important;
-        margin-bottom: 1% !important;
-        top: 50%;
-    }
-
-    h4 {
-        font-size: 24px;
-        padding: 2%;
-        padding-left: 0;
-        color: #fdd700;
-    }
-    p {
-        font-size: 16px;
-        line-height: 2rem;
-        font-weight: 600;
-        letter-spacing: 0.0625em;
-    }
     svg {
         width: 550px !important;
         height: 100% !important;

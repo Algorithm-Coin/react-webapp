@@ -13,6 +13,32 @@ const IntroWrapper = css`
     background-color: #0d0d2c;
     user-select: none;
 
+    h1 {
+        font-size: 5rem;
+        font-weight: bold;
+    }
+    h3 {
+        font-size: 3em;
+    }
+
+    ${media.small} {
+        h1 {
+            font-size: 4rem;
+        }
+        h3 {
+            font-size: 2em;
+        }
+    }
+
+    ${media.xsmall} {
+        h1 {
+            font-size: 3rem;
+        }
+        h3 {
+            font-size: 1.66em;
+        }
+    }
+
     #tsparticles {
         height: 100%;
     }

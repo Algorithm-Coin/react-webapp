@@ -4,7 +4,7 @@ import lottie from 'lottie-web';
 
 import media from '../styles/media';
 import businessMen from '../assets/media/problem/businessMen.json';
-import background from '../assets/media/problem/Background.svg';
+import background from '../assets/media/problem/backgroundLines.svg';
 
 const ProblemWrapper = css`
     background-color: #141438;
@@ -24,18 +24,10 @@ const ProblemWrapper = css`
         z-index: 1;
     }
 
-    div {
-        svg {
-            width: 550px;
-            height: 100%;
-            z-index: 2;
-        }
-    }
-
     ${media.small} {
         flex-direction: column-reverse;
 
-        svg {
+        .lottie-animation {
             width: 250px;
         }
     }
