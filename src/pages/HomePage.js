@@ -38,7 +38,7 @@ const HomePage = () => {
         <div css={[HomePageStyle]}>
             <Intro />
             <Mission />
-            <HowToBuy />
+            {/* <HowToBuy /> */}
             <Roadmap />
             <Problem />
             <Solution />
