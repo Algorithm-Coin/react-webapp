@@ -1,7 +1,7 @@
 import React from 'react';
 import { css } from '@emotion/react';
 
-import { HowToBuy, Intro, Mission, Roadmap } from '../containers';
+import { HowToBuy, Intro, Mission, Roadmap, Problem, Solution } from '../containers';
 import media from '../styles/media';
 
 const HomePageStyle = css`
@@ -40,6 +40,8 @@ const HomePage = () => {
             <Mission />
             <HowToBuy />
             <Roadmap />
+            <Problem />
+            <Solution />
         </div>
     );
 };
