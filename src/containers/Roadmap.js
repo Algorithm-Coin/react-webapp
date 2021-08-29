@@ -12,7 +12,8 @@ const RoadmapWrapper = css`
     background-color: rgba(13, 13, 44);
 
     h1 {
-        margin: 4rem 0;
+        padding: 4rem 0;
+        text-align: center;
     }
 
     ${media.large} {
@@ -155,9 +156,7 @@ const Roadmap = () => {
     }, []);
     return (
         <section css={RoadmapWrapper} id="roadmap">
-            <div css={TextContainer}>
-                <h1>Roadmap</h1>
-            </div>
+            <h1>Roadmap</h1>
             <div css={containerGrid}>
                 <div css={gridItem}>
                     <div css={animatie} id="graphsAnimation" />
