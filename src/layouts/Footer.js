@@ -184,7 +184,7 @@ const Footer = () => {
                         Created by the Algorithm team | {new Date().getFullYear()} &copy; Algorithm
                     </p>
                     <div css={socials}>
-                        <a href="https://twitter.com/algorithmcoin/" target="_blank">
+                        <a href="https://www.facebook.com/profile.php?id=100068551995757" target="_blank">
                             <FaFacebook />
                         </a>
                         <a href="https://www.instagram.com/algorithmcoin/" target="_blank">

@@ -49,7 +49,10 @@ const Socials = () => {
                 </h4>
                 <ul css={socialsIcons}>
                     <li>
-                        <a href="https://www.instagram.com/algorithmcoin/" target="_blank">
+                        <a
+                            href="https://www.facebook.com/profile.php?id=100068551995757"
+                            target="_blank"
+                        >
                             <FaFacebook />
                         </a>
                     </li>

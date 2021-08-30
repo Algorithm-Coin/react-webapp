@@ -34,6 +34,10 @@ a {
     align-items: center;
     justify-content: center;
     width: 100%;
+
+    @media (max-width: 767px) {
+        height: auto;
+    }
 }
 
 .flex-container {
