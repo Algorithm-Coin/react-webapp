@@ -1,6 +1,8 @@
 import { css } from '@emotion/react';
 import { FaInstagram, FaTwitter, FaFacebook } from 'react-icons/fa';
 
+import media from '../styles/media';
+
 const socialsWrapper = css`
     position: relative;
     background-color: #141438;
@@ -20,6 +22,11 @@ const socialsWrapper = css`
         padding: 0;
         margin-bottom: 2rem;
     }
+
+    ${media.small} {
+        height: auto;
+        padding: 4rem 0;
+    }
 `;
 const socialsIcons = css`
     display: flex;
@@ -36,6 +43,12 @@ const socialsIcons = css`
 
     li a:hover {
         color: #fdd700;
+    }
+
+    ${media.small} {
+        li a {
+            font-size: 2rem;
+        }
     }
 `;
 
