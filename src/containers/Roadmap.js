@@ -8,40 +8,13 @@ import media from '../styles/media';
 
 const RoadmapWrapper = css`
     font-family: 'Nunito', monospace;
-    padding: 2%;
     background-color: rgba(13, 13, 44);
 
     h1 {
-        padding: 4rem 0;
         text-align: center;
     }
-
-    ${media.large} {
-        padding: 10%;
-    }
-
-    ${media.small} {
-        p {
-            font-size: 12px;
-        }
-        h4 {
-            font-size: 20px;
-        }
-        h5 {
-            font-size: 15px;
-        }
-        h1 {
-            font-size: 35px;
-        }
-    }
 `;
 
-const TextContainer = css`
-    text-align: center;
-    color: white;
-    background-color: rgba(13, 13, 44);
-    margin-bottom: 0px !important;
-`;
 const containerGrid = css`
     display: inline-grid;
     grid-template-columns: 1fr 1fr;
@@ -155,7 +128,7 @@ const Roadmap = () => {
         });
     }, []);
     return (
-        <section css={RoadmapWrapper} id="roadmap">
+        <section className="container" css={RoadmapWrapper} id="roadmap">
             <h1>Roadmap</h1>
             <div css={containerGrid}>
                 <div css={gridItem}>

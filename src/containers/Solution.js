@@ -35,18 +35,20 @@ const Solution = () => {
             </div>
             <div className="flex-item">
                 <h1>Solution</h1>
-                <h4>Algorithm Trading</h4>
+                <h4>Our Team</h4>
                 <p>
-                    Trading via algorithms is indispensable. Advanced mathematical models can make
-                    data-driven decisions at lightning speed. The price reactions to published
-                    economic figures are often striking. Right now, only the elite have the best
-                    algorithms on the crypto market.
+                    Our team wants to make it possible for everyone to day trade via an application.
+                    This application will start day trading through our algorithm 24 hours a day and
+                    will only be available for Algorithm Coin holders.
                 </p>
-                <h4>Transparency</h4>
+                <h4>Algorithm</h4>
                 <p>
-                    Many coins and companies are not transparent. This leads to speculation and
-                    ambiguity. This is not the case with Algorithm Coin, because we fight for
-                    transparency.
+                    Our algorithm will also trade 24 hours a day 7 days a week like a day trader for
+                    you in the future! Users will see an overview of the trades to see how well the
+                    day has been. Our algorithm will learn through AI. Thanks to AI, the algorithm
+                    can learn from its mistakes and predict the price even better in the future and
+                    last but not least our developers keep working on the algorithm until there will
+                    be nothing to improve ;).
                 </p>
             </div>
         </section>

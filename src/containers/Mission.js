@@ -21,6 +21,10 @@ const gridItem = css`
     padding: 0 2%;
     width: 100%;
     height: auto;
+
+    ${media.small} {
+        margin: 2rem 0;
+    }
 `;
 const corners = css`
     background: linear-gradient(to right, #fdd700 3px, transparent 3px) 0 0,
