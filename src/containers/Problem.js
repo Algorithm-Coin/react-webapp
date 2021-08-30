@@ -24,11 +24,24 @@ const ProblemWrapper = css`
         z-index: 1;
     }
 
+    ${media.medium} {
+        .lottie-animation {
+            width: 350px;
+        }
+    }
+
     ${media.small} {
-        flex-direction: column-reverse;
+        flex-direction: column;
 
         .lottie-animation {
-            width: 250px;
+            width: 300px;
+            height: auto;
+        }
+    }
+
+    ${media.xsmall} {
+        .lottie-animation {
+            width: 200px;
         }
     }
 `;

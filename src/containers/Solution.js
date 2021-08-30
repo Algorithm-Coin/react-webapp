@@ -8,11 +8,24 @@ import businessMen from '../assets/media/problem/businessMen.json';
 const SolutionWrapper = css`
     background-color: rgba(13, 13, 44);
 
+    ${media.medium} {
+        .lottie-animation {
+            width: 350px;
+        }
+    }
+
     ${media.small} {
         flex-direction: column-reverse;
 
         .lottie-animation {
-            width: 250px;
+            width: 300px;
+            height: auto;
+        }
+    }
+
+    ${media.xsmall} {
+        .lottie-animation {
+            width: 200px;
         }
     }
 `;
