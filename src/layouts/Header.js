@@ -111,7 +111,7 @@ const HeaderStyle = css`
     }
 
     ${media.small} {
-        padding: 0px;
+        padding: 0 40px;
         height: auto;
         min-height: 50px;
         display: block;
@@ -120,8 +120,6 @@ const HeaderStyle = css`
             width: 100%;
             display: block;
             margin: 0px;
-            margin-left: -5px;
-            padding-left: 15px;
             padding-top: 0px !important;
             a {
                 padding: 20px 0px;
@@ -132,7 +130,7 @@ const HeaderStyle = css`
             display: inline-block;
             position: absolute;
             top: 6px;
-            right: 10px;
+            right: 30px;
             cursor: pointer;
         }
         ul.collapsed {
@@ -175,7 +173,7 @@ const HeaderStyle = css`
             }
 
             li {
-                padding: 15px 10px;
+                padding: 15px 0px;
                 margin: 0px 0px;
                 width: 100%;
 

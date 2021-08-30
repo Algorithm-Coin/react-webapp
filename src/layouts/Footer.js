@@ -15,7 +15,7 @@ const footerWrapper = css`
     padding: 4rem 100px 0;
 
     ${media.medium} {
-        padding: 2rem 20px 0;
+        padding: 4rem 40px 0;
     }
 
     ${media.small} {
@@ -184,7 +184,10 @@ const Footer = () => {
                         Created by the Algorithm team | {new Date().getFullYear()} &copy; Algorithm
                     </p>
                     <div css={socials}>
-                        <a href="https://www.facebook.com/profile.php?id=100068551995757" target="_blank">
+                        <a
+                            href="https://www.facebook.com/profile.php?id=100068551995757"
+                            target="_blank"
+                        >
                             <FaFacebook />
                         </a>
                         <a href="https://www.instagram.com/algorithmcoin/" target="_blank">

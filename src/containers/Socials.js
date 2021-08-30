@@ -25,7 +25,7 @@ const socialsWrapper = css`
 
     ${media.small} {
         height: auto;
-        padding: 4rem 0;
+        padding: 4rem 40px;
     }
 `;
 const socialsIcons = css`
