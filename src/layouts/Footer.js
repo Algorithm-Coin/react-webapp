@@ -15,11 +15,11 @@ const footerWrapper = css`
     padding: 4rem 100px 0;
 
     ${media.medium} {
-        padding: 0 20px 0;
+        padding: 2rem 20px 0;
     }
 
     ${media.small} {
-        padding: 0px;
+        height: auto;
     }
 `;
 const row = css`
@@ -34,6 +34,21 @@ const column = css`
     flex-basis: 100%;
     flex: 1;
     height: 100%;
+
+    ${media.small} {
+        flex-basis: 50%;
+        margin: 1rem 0;
+
+        /* For the logo */
+        &:first-child {
+            flex: 0 0 100%;
+        }
+    }
+
+    ${media.xsmall} {
+        flex: 0 0 100%;
+        text-align: center;
+    }
 `;
 
 const footerTop = css`
@@ -58,6 +73,11 @@ const footerTop = css`
 const logoStyle = css`
     width: 100px;
     height: auto;
+
+    ${media.small} {
+        margin: 0 auto;
+        margin-bottom: 2rem;
+    }
 `;
 
 const divider = css`
@@ -70,9 +90,13 @@ const divider = css`
         top: -20px;
         left: 5%;
         right: 5%;
-        width: 100%;
+        width: 90%;
         height: 1px;
         background-image: linear-gradient(to right, transparent, #fff, transparent);
+
+        ${media.small} {
+            top: 0;
+        }
     }
 `;
 
@@ -80,9 +104,22 @@ const footerBottom = css`
     height: 20%;
     width: 100%;
     font-size: 1.5em;
+    color: rgb(255 255 255 / 60%);
 
     p {
         display: inline-block;
+        margin-bottom: 0.5rem;
+    }
+
+    ${media.small} {
+        height: auto;
+        text-align: center;
+        padding: 2rem 0;
+        font-size: 1em;
+
+        p {
+            font-size: 1em;
+        }
     }
 `;
 const socials = css`
@@ -90,6 +127,11 @@ const socials = css`
 
     a {
         margin-left: 1rem;
+    }
+
+    ${media.small} {
+        float: none;
+        text-align: center;
     }
 `;
 
