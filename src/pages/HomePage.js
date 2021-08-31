@@ -7,7 +7,7 @@ const HomePage = () => {
         <>
             <Intro />
             <Mission />
-            {/* <HowToBuy /> */}
+            <HowToBuy />
             <Roadmap />
             <Problem />
             <Solution />

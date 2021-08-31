@@ -2,7 +2,7 @@ import React from 'react';
 import { css } from '@emotion/react';
 
 import lottie from 'lottie-web';
-import logo from '../assets/media/roadmap/logoBlueGold.png';
+import logo from '../assets/media/roadmap/logoBlauw.png';
 import graphsAnimation from '../assets/media/roadmap/graphsAnimation.json';
 import media from '../styles/media';
 
@@ -84,6 +84,7 @@ const icon = css`
     width: 80px;
     height: 80px;
     margin-left: -135px;
+    margin-top: -1px;
 
     ${media.large} {
         margin-left: 30%;
