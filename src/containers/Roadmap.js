@@ -84,7 +84,7 @@ const icon = css`
     width: 80px;
     height: 80px;
     margin-left: -135px;
-    margin-top: -1px;
+    margin-top: -3px;
 
     ${media.large} {
         margin-left: 30%;
@@ -103,10 +103,13 @@ const iconGrid = css`
     ${media.large} {
         float: left;
         width: 0;
-        margin-left: -65px;
+        margin-left: -70px;
     }
     ${media.small} {
-        margin-left: -30px;
+        margin-left: -41px;
+    }
+    ${media.xsmall} {
+        margin-left: -33px;
     }
 `;
 const info = css`
