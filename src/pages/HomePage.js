@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { HowToBuy, Intro, Mission, Roadmap, Problem, Solution, Socials } from '../containers';
+import { HowToBuy, Intro, Mission, Roadmap, Problem, Solution, Socials, Benefits } from '../containers';
 
 const HomePage = () => {
     return (
@@ -11,6 +11,7 @@ const HomePage = () => {
             <Roadmap />
             <Problem />
             <Solution />
+            <Benefits/>
             <Socials />
         </>
     );

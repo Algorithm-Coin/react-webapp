@@ -26,9 +26,10 @@ const HowToBuyWrapper = css`
     }
     h2{
         text-align: center;
-        font-size: 18px;
-        color: #FDD700;
+        font-size: 20px;
+        color: white;
         line-height: normal;
+        font-weight: bold;
     }
     h3{
         text-align: center;

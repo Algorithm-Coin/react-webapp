@@ -12,6 +12,7 @@ const RoadmapWrapper = css`
 
     h1 {
         text-align: center;
+        padding-bottom: 3rem;
     }
 `;
 

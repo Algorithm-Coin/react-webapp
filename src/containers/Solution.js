@@ -3,7 +3,7 @@ import { css } from '@emotion/react';
 import lottie from 'lottie-web';
 
 import media from '../styles/media';
-import businessMen from '../assets/media/problem/businessMen.json';
+import goudeLaptop from '../assets/media/solution/goudelaptop.json';
 
 const SolutionWrapper = css`
     background-color: rgba(13, 13, 44);
@@ -33,8 +33,8 @@ const SolutionWrapper = css`
 const Solution = () => {
     React.useEffect(() => {
         lottie.loadAnimation({
-            container: document.querySelector('#businessMen2'),
-            animationData: businessMen,
+            container: document.querySelector('#goudeLaptop'),
+            animationData: goudeLaptop,
         });
     }, []);
     return (
@@ -42,8 +42,8 @@ const Solution = () => {
             <div className="flex-item">
                 <div
                     className="centered lottie-animation"
-                    id="businessMen2"
-                    alt="Animation of businessmen"
+                    id="goudeLaptop"
+                    alt="Animation of goude Laptop"
                 />
             </div>
             <div className="flex-item">
