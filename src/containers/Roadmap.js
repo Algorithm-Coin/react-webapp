@@ -14,6 +14,9 @@ const RoadmapWrapper = css`
         text-align: center;
         padding-bottom: 3rem;
     }
+    h5{
+        line-height: normal;
+    }
 `;
 
 const containerGrid = css`
@@ -90,6 +93,10 @@ const icon = css`
     ${media.large} {
         margin-left: 30%;
     }
+    ${media.medium} {
+    width: 60px;
+    height: 60px;
+    }
     ${media.small} {
         width: 40px;
         height: 40px;
@@ -106,11 +113,20 @@ const iconGrid = css`
         width: 0;
         margin-left: -70px;
     }
+    ${media.medium} {
+        margin-left: -60px;
+    }
+    ${media.custom(880)} {
+        margin-left: -55px;
+    }
     ${media.small} {
         margin-left: -41px;
     }
+    ${media.custom(651)} {
+        margin-left: -35px;
+    }
     ${media.xsmall} {
-        margin-left: -33px;
+        margin-left: -30px;
     }
 `;
 const info = css`
@@ -155,6 +171,7 @@ const Roadmap = () => {
                                 earliest adopters will experience the most upside potential, with
                                 the lowest risk.
                             </p>
+                            <br></br>
                         </div>
                     </div>
                     <div css={containerGrid2}>
@@ -171,6 +188,7 @@ const Roadmap = () => {
                                 new partners to improve our algorithm. The algorithm will be more
                                 advanced with better AI software which will lead to more profit.
                             </p>
+                            <br></br>
                         </div>
                     </div>
                     <div css={containerGrid2}>
@@ -184,6 +202,7 @@ const Roadmap = () => {
                                 The algorithm is going to make a lot of money. This money will be
                                 invested back in the coin, causing the coin to rise.
                             </p>
+                            <br></br>
                         </div>
                     </div>
                     <div css={containerGrid2}>
@@ -194,6 +213,7 @@ const Roadmap = () => {
                             <h4>2025</h4>
                             <h5>Launching the application for users</h5>
                             <p>We have successfully launched the Application for users.</p>
+                            <br></br>
                         </div>
                     </div>
                 </div>
