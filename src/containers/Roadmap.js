@@ -168,7 +168,7 @@ const Roadmap = () => {
                                 development of the Algorithm technology. By targeting different
                                 groups of users, the Algorithm currency will accrue in value
                                 exponentially overtime as the network increases in size. The
-                                earliest adopters will experience the most upside potential, with
+                                earliest buyers will experience the most upside potential, with
                                 the lowest risk.
                             </p>
                             <br></br>

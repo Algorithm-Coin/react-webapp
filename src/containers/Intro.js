@@ -64,6 +64,9 @@ const TextContainer = css`
         width: 150px;
         animation: verticalWobble 3s linear infinite;
         user-select: none;
+        ${media.small} {
+        width: 100px;
+        }
     }
 
     a {
@@ -71,7 +74,10 @@ const TextContainer = css`
         pointer-events: all;
     }
 `;
-
+const ruimteBoven = css`
+    padding-top: 20px;
+    padding-bottom: 20px;
+`;
 const particleParams = {
     particles: {
         number: {
@@ -185,7 +191,11 @@ const Intro = () => {
                 <img src={logo} />
                 <h1>Welcome to Algorithm</h1>
                 <h3>The future of automatic trading</h3>
-                <Button text="buy now on pancakeswap" href="https://google.nl" />
+                <Button text="buy now on pancakeswap" href="#" />
+                <div css={ruimteBoven}>
+                    <p>CONTRACT ADDRESS</p>
+                    <p>0x5947komtnogdegoede484327c3918690b</p>
+                </div>
             </div>
         </section>
     );

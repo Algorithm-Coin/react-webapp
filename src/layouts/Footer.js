@@ -169,7 +169,7 @@ const Footer = () => {
                         <HashLink section="Solution" />
                     </ul>
                     <ul css={column}>
-                        <HashLink section="Whitepaper" />
+                        <HashLink section="Team" />
                         <HashLink section="Policy" />
                         <HashLink section="Support" />
                     </ul>

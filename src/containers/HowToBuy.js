@@ -2,7 +2,7 @@ import React from 'react';
 import { css } from '@emotion/react';
 import media from '../styles/media';
 import { FaWallet, FaArrowRight } from 'react-icons/fa';
-import { GoBrowser } from "react-icons/go";
+import { GoBrowser, GoVerified } from "react-icons/go";
 import logo from '../assets/media/howToBuy/algorithm_logo.svg';
 import binanceLogo from '../assets/media/howToBuy/cryptocurrency_bnb.svg';
 const HowToBuyWrapper = css`
@@ -67,7 +67,7 @@ const HowToBuyWrapper = css`
 `;
 const gridContainer = css`
     display: inline-grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     width: 100%;
     ${media.medium} {
         grid-template-columns: 1fr 1fr;
@@ -129,7 +129,7 @@ const HowToBuy = () => {
     return (
         <section css={HowToBuyWrapper} id="howtobuy" className="container">
             <h1>How To Buy</h1>
-            <h3>Here are four simple steps how to buy the Algorithm Coin</h3>
+            <h3>Here are five simple steps how to buy the Algorithm Coin</h3>
             <div css={gridContainer}>
                 <div css={gridItem}>
                     <div css={circle}>
@@ -166,13 +166,27 @@ const HowToBuy = () => {
                     <div css={circle}>
                         <img src={logo} css={icon}></img>
                     </div>
-                    <div css={arrow2}>
+                    <div css={arrow}>
                         <FaArrowRight/>
                     </div>
                     <h2>Buy Algorithm Coin</h2>
-                    <p>Search Algorithm Coin (ALGRTHM) on Pancakeswap en trade BNB for ALGRTHM. You will have to add your token both to Trustwallet and Pancakeswap inside Trustwallet
+                    <p>You will have to add your token both to Trustwallet and Pancakeswap inside Trustwallet
 
-                    For more information about how to add a custom token: <a href="https://community.trustwallet.com/t/how-to-add-a-custom-token/213">click here</a></p>
+                    For more information about how to add a custom token: <a href="https://community.trustwallet.com/t/how-to-add-a-custom-token/213">click here</a>. The only thing left is connecting your trustwallet at the bottom right on pancakeswap and fill in the token adress of Algorithm Coin. Now you can swap your BNB for ALGRTHM and get your first Algorithm Coins.</p>
+                </div>
+                <div css={gridItem}>
+                    <div css={circle}>
+                        <GoVerified />
+                    </div>
+                    <div css={arrow2}>
+                        <FaArrowRight/>
+                    </div>
+                    <h2>Details</h2>
+                    <p>Name: Algorithm</p>
+                    <p>Network: Smart Chain</p>
+                    <p>Contract address: 0x5947komtnogdegoede484327c3918690b</p>
+                    <p>Symbol: ALGRTHM</p>
+
                 </div>
             </div>
         </section>
