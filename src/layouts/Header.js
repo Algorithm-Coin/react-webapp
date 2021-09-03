@@ -276,7 +276,7 @@ class Header extends Component {
                     <ul className={`collapsed ${isExpanded ? 'is-expanded' : ''}`}>
                         <HashLink section="Mission" />
                         <HashLink section="Roadmap" />
-                        <HashLink section="How it works" />
+                        <HashLink section="How to buy" />
                         <HashLink section="Solution" />
                         <li className="socials">
                             <a href="https://www.instagram.com/algorithmcoin/" target="_blank">
@@ -287,7 +287,7 @@ class Header extends Component {
                             </a>
                         </li>
                         <li>
-                            <Button text="how to buy" href="https://google.nl" />
+                            <Button text="Buy Now" href="https://google.nl" />
                         </li>
                     </ul>
                 </nav>
