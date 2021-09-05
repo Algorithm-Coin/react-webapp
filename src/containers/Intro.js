@@ -188,7 +188,7 @@ const Intro = () => {
         <section css={IntroWrapper}>
             <Particles params={particleParams} />
             <div css={TextContainer}>
-                <img src={logo} />
+                <img src={logo} alt="afbeelding van logo"/>
                 <h1>Welcome to Algorithm</h1>
                 <h3>The future of automatic trading</h3>
                 <Button text="buy now on pancakeswap" href="#" />

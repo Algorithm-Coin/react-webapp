@@ -158,7 +158,7 @@ const Roadmap = () => {
                 <div css={gridItem2}>
                     <div css={containerGrid2}>
                         <div css={iconGrid}>
-                            <img src={logo} css={icon}></img>
+                            <img src={logo} css={icon} alt="afbeelding van logo"></img>
                         </div>
                         <div css={info}>
                             <h4>2022</h4>
@@ -176,7 +176,7 @@ const Roadmap = () => {
                     </div>
                     <div css={containerGrid2}>
                         <div css={iconGrid}>
-                            <img src={logo} css={icon}></img>
+                            <img src={logo} css={icon} alt="afbeelding van logo"></img>
                         </div>
                         <div css={info}>
                             <h4>2023</h4>
@@ -193,7 +193,7 @@ const Roadmap = () => {
                     </div>
                     <div css={containerGrid2}>
                         <div css={iconGrid}>
-                            <img src={logo} css={icon}></img>
+                            <img src={logo} css={icon} alt="afbeelding van logo"></img>
                         </div>
                         <div css={info}>
                             <h4>2024</h4>
@@ -207,7 +207,7 @@ const Roadmap = () => {
                     </div>
                     <div css={containerGrid2}>
                         <div css={iconGrid}>
-                            <img src={logo} css={icon}></img>
+                            <img src={logo} css={icon} alt="afbeelding van logo"></img>
                         </div>
                         <div css={info}>
                             <h4>2025</h4>

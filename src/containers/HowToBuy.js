@@ -105,6 +105,34 @@ const circle = css`
         margin-bottom: 25px;
     }
 `;
+const arrowDisappear = css`
+    position: relative;
+    left: 54% !important;
+    top: -10%;
+
+    ${media.medium} {
+        svg{
+            color: transparent;
+        }
+    }
+`;
+const arrowDisappearBig = css`
+    position: relative;
+    left: 54% !important;
+    top: -10%;
+    svg{
+        color: transparent;
+    }
+
+    ${media.medium} {
+        svg{
+            color: #FDD700;
+        }
+    }
+    ${media.small} {
+        display: none;
+    }
+`;
 const arrow = css`
     position: relative;
     left: 54% !important;
@@ -116,10 +144,10 @@ const arrow = css`
 `;
 const arrow2 = css`
     svg{
-    position: relative;
-    left: 50% !important;
-    top: -10%;
-    color: transparent !important;
+        position: relative;
+        left: 50% !important;
+        top: -10%;
+        color: transparent;
     }
     ${media.small} {
         display: none;
@@ -143,9 +171,9 @@ const HowToBuy = () => {
                 </div>
                 <div css={gridItem}>
                     <div css={circle}>
-                        <img src={binanceLogo} css={icon}></img>
+                        <img src={binanceLogo} css={icon} alt="icon van binance"></img>
                     </div>
-                    <div css={arrow}>
+                    <div css={arrowDisappear}>
                         <FaArrowRight/>
                     </div>
                     <h2>Buy BNB Smartchain token</h2>
@@ -156,7 +184,7 @@ const HowToBuy = () => {
                     <div css={circle}>
                         <GoBrowser/>
                     </div>
-                    <div css={arrow}>
+                    <div css={arrowDisappearBig}>
                         <FaArrowRight/>
                     </div>
                     <h2>Connecting the wallet</h2>
@@ -164,9 +192,9 @@ const HowToBuy = () => {
                 </div>
                 <div css={gridItem}>
                     <div css={circle}>
-                        <img src={logo} css={icon}></img>
+                        <img src={logo} css={icon} alt="afbeelding van logo"></img>
                     </div>
-                    <div css={arrow}>
+                    <div css={arrowDisappear}>
                         <FaArrowRight/>
                     </div>
                     <h2>Buy Algorithm Coin</h2>
