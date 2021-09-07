@@ -80,9 +80,13 @@ const gridItem = css`
     padding: 20px;
     width: 100%;
     height: auto;
+    word-break: break-word;
 
     ${media.small} {
         margin: 2rem 0;
+    }
+    ${media.xsmall} {
+        padding: 0;
     }
 `;
 const icon = css`
@@ -202,8 +206,7 @@ const HowToBuy = () => {
                         Paste the contract code in To to select the Algorithm Coin.
                         Enter your amounts you want to swap and confirm it to get your first Algorithm Coins.
 
-                        If your Algorithm Coins are not showing up in your wallet use the following instructions to add the coins onto your wallet page: 
-<a href="https://community.trustwallet.com/t/how-to-add-a-custom-token/213">click here</a>. </p>
+                        If your Algorithm Coins are not showing up in your wallet use the following instructions to add the coins onto your wallet page: <a href="https://community.trustwallet.com/t/how-to-add-a-custom-token/213">click here.</a></p>
                 </div>
                 <div css={gridItem}>
                     <div css={circle}>
@@ -215,7 +218,8 @@ const HowToBuy = () => {
                     <h2>Details</h2>
                     <p>Name: Algorithm</p>
                     <p>Network: Smart Chain</p>
-                    <p>Contract address: 0x5947komtnogdegoede484327c3918690b</p>
+                    <p>Contract address:</p> 
+                    <p>0xc101dd1969095051e490561d53e05dba122c0b70</p>
                     <p>Symbol: ALGRTHM</p>
 
                 </div>

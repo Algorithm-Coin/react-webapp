@@ -73,6 +73,10 @@ const TextContainer = css`
         margin-top: 40px;
         pointer-events: all;
     }
+    p{
+        word-wrap: break-word;
+        padding: 0rem 40px ;
+    }
 `;
 const ruimteBoven = css`
     padding-top: 20px;
@@ -194,7 +198,7 @@ const Intro = () => {
                 <Button text="buy now on pancakeswap" href="#" />
                 <div css={ruimteBoven}>
                     <p>CONTRACT ADDRESS</p>
-                    <p>0x5947komtnogdegoede484327c3918690b</p>
+                    <p>0xc101dd1969095051e490561d53e05dba122c0b70</p>
                 </div>
             </div>
         </section>
