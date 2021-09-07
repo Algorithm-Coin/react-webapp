@@ -198,9 +198,12 @@ const HowToBuy = () => {
                         <FaArrowRight/>
                     </div>
                     <h2>Buy Algorithm Coin</h2>
-                    <p>You will have to add your token both to Trustwallet and Pancakeswap inside Trustwallet
+                    <p>Go to exchange on pancakeswap and select BNB at from,
+                        Paste the contract code in To to select the Algorithm Coin.
+                        Enter your amounts you want to swap and confirm it to get your first Algorithm Coins.
 
-                    For more information about how to add a custom token: <a href="https://community.trustwallet.com/t/how-to-add-a-custom-token/213">click here</a>. The only thing left is connecting your trustwallet at the bottom right on pancakeswap and fill in the token adress of Algorithm Coin. Now you can swap your BNB for ALGRTHM and get your first Algorithm Coins.</p>
+                        If your Algorithm Coins are not showing up in your wallet use the following instructions to add the coins onto your wallet page: 
+<a href="https://community.trustwallet.com/t/how-to-add-a-custom-token/213">click here</a>. </p>
                 </div>
                 <div css={gridItem}>
                     <div css={circle}>
