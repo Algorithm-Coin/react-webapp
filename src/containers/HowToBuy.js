@@ -160,7 +160,7 @@ const arrow2 = css`
 const HowToBuy = () => {
     return (
         <section css={HowToBuyWrapper} id="howtobuy" className="container">
-            <h1>How To Buy</h1>
+            <h1>How To Buy Soon</h1>
             <h3>Here are five simple steps how to buy the Algorithm Coin</h3>
             <div css={gridContainer}>
                 <div css={gridItem}>

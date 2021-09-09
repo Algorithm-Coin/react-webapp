@@ -161,7 +161,7 @@ const Roadmap = () => {
                             <img src={logo} css={icon} alt="afbeelding van logo"></img>
                         </div>
                         <div css={info}>
-                            <h4>2022</h4>
+                            <h4>2021</h4>
                             <h5>Launching the Algorithm Coin(AlGRTHM)</h5>
                             <p>
                                 Algorithm currency will be created to raise funds for the
@@ -179,7 +179,7 @@ const Roadmap = () => {
                             <img src={logo} css={icon} alt="afbeelding van logo"></img>
                         </div>
                         <div css={info}>
-                            <h4>2023</h4>
+                            <h4>2022</h4>
                             <h5>The Future of our Algorithm and Coin</h5>
                             <p>
                                 We will implement a global marketing campaign which will lead to
@@ -196,7 +196,7 @@ const Roadmap = () => {
                             <img src={logo} css={icon} alt="afbeelding van logo"></img>
                         </div>
                         <div css={info}>
-                            <h4>2024</h4>
+                            <h4>2023</h4>
                             <h5>Algorithm Coin becomes big</h5>
                             <p>
                                 The algorithm is going to make a lot of money. This money will be
@@ -210,7 +210,7 @@ const Roadmap = () => {
                             <img src={logo} css={icon} alt="afbeelding van logo"></img>
                         </div>
                         <div css={info}>
-                            <h4>2025</h4>
+                            <h4>2024</h4>
                             <h5>Launching the application for users</h5>
                             <p>We have successfully launched the Application for users.</p>
                             <br></br>
