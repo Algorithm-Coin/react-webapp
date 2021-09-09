@@ -287,7 +287,7 @@ class Header extends Component {
                             </a>
                         </li>
                         <li>
-                            <Button text="Buy Now" href="https://google.nl" />
+                            <Button text="Buy Now" href="https://pancakeswap.finance/swap" />
                         </li>
                     </ul>
                 </nav>

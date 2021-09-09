@@ -195,7 +195,7 @@ const Intro = () => {
                 <img src={logo} alt="afbeelding van logo"/>
                 <h1>Welcome to Algorithm</h1>
                 <h3>The future of automatic trading</h3>
-                <Button text="buy now on pancakeswap" href="#" />
+                <Button text="buy now on pancakeswap" href="https://pancakeswap.finance/swap" />
                 <div css={ruimteBoven}>
                     <p>CONTRACT ADDRESS</p>
                     <p>0xc101dd1969095051e490561d53e05dba122c0b70</p>
