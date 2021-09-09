@@ -198,6 +198,7 @@ const HashLink = (props) => {
             isDynamic={true}
             ignoreCancelEvents={false}
             spyThrottle={500}
+            onClick={props.onClick}
         >
             <li>{props.section}</li>
         </Link>
@@ -257,6 +258,11 @@ class Header extends Component {
     componentWillUnmount() {
         window.removeEventListener('scroll', this.handleScroll);
     }
+    closeMobileMenu = () => {
+        if (this.state.isExpanded) {
+            this.setState({ isExpanded: false });
+        }
+    };
     render() {
         const { isExpanded, fadeHeader } = this.state;
 
@@ -274,10 +280,10 @@ class Header extends Component {
                         />
                     </div>
                     <ul className={`collapsed ${isExpanded ? 'is-expanded' : ''}`}>
-                        <HashLink section="Mission" />
-                        <HashLink section="Roadmap" />
-                        <HashLink section="How to buy" />
-                        <HashLink section="Solution" />
+                        <HashLink section="Mission" onClick={this.closeMobileMenu} />
+                        <HashLink section="How to buy" onClick={this.closeMobileMenu} />
+                        <HashLink section="Roadmap" onClick={this.closeMobileMenu} />
+                        <HashLink section="Benefits" onClick={this.closeMobileMenu} />
                         <li className="socials">
                             <a href="https://www.instagram.com/algorithmcoin/" target="_blank">
                                 <FaInstagram />
