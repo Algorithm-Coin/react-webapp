@@ -1,6 +1,5 @@
 import React from 'react';
 import { css } from '@emotion/react';
-
 import lottie from 'lottie-web';
 import logo from '../assets/media/roadmap/logoBlauw.png';
 import graphsAnimation from '../assets/media/roadmap/graphsAnimation.json';

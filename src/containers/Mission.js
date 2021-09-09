@@ -1,9 +1,7 @@
 import React from 'react';
 import { css } from '@emotion/react';
-
 import media from '../styles/media';
-import monitorGraphs from '../assets/media/mission/monitor-graphs.svg';
-import graphs from '../assets/media/mission/graphs.svg';
+
 
 const MissionWrapper = css`
     background-color: #141438;
@@ -50,20 +48,6 @@ const geleTekst = css`
     flex: 1;
     display: inline-block;
 `;
-// const corners = css`
-//     background: linear-gradient(to right, #fdd700 3px, transparent 3px) 0 0,
-//         linear-gradient(to left, #fdd700 3px, transparent 3px) 100% 100%,
-//         linear-gradient(to bottom, #fdd700 3px, transparent 3px) 0 0,
-//         linear-gradient(to top, #fdd700 3px, transparent 3px) 100% 100%;
-//     background-repeat: no-repeat;
-//     background-size: 30px 30px;
-// `;
-// const image = css`
-//     width: 250px;
-//     height: 200px;
-//     vertical-align: middle;
-//     border-style: none;
-// `;
 
 const Mission = () => {
     return (

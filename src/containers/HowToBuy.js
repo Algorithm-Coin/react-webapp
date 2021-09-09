@@ -14,11 +14,11 @@ const HowToBuyWrapper = css`
         padding-top: 20px;
     }
     h1:after {
-        content: ""; /* This is necessary for the pseudo element to work. */ 
-        display: block; /* This will put the pseudo element on its own line. */
-        margin: 0 auto; /* This will center the border. */
-        width: 50%; /* Change this to whatever width you want. */
-        padding-top: 20px; /* This creates some space between the element and the border. */
+        content: ""; 
+        display: block; 
+        margin: 0 auto; 
+        width: 50%; 
+        padding-top: 20px; 
         border-bottom: 1px solid white;
     }
     p{
