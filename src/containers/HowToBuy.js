@@ -219,7 +219,8 @@ const HowToBuy = () => {
                     <p>Name: Algorithm</p>
                     <p>Network: Smart Chain</p>
                     <p>Contract address:</p> 
-                    <p>0xc101dd1969095051e490561d53e05dba122c0b70</p>
+                    {/* <p>0xc101dd1969095051e490561d53e05dba122c0b70</p> */}
+                    <p>Available soon</p>
                     <p>Symbol: ALGRTHM</p>
 
                 </div>
