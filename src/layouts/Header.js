@@ -263,7 +263,7 @@ class Header extends Component {
         return (
             <header css={HeaderStyle} className={`${fadeHeader ? 'animateToFaded' : ''}`}>
                 <div className="logo">
-                    <a onClick={this.scrollToTop}>Algorithm Coin</a>
+                    <a onClick={this.scrollToTop}>Algorithm</a>
                 </div>
                 <nav className="nav">
                     <div className="bars" aria-hidden="true">

@@ -62,7 +62,7 @@ const Problem = () => {
                     Trading via algorithms is indispensable. Advanced mathematical models can make
                     data-driven decisions at lightning speed. The price reactions to published
                     economic figures are often striking. Right now, only the elite have the best
-                    algorithms on the crypto market. These algorithms invest longer term and not like a real day trader.
+                    algorithms on the crypto market. These algorithms invest in longer periods and not like a real day trader.
                 </p>
                 <h4>Transparency</h4>
                 <p>
