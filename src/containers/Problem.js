@@ -1,7 +1,6 @@
 import React from 'react';
 import { css } from '@emotion/react';
 import lottie from 'lottie-web';
-
 import media from '../styles/media';
 import businessMen from '../assets/media/problem/businessMen.json';
 import background from '../assets/media/problem/backgroundLines.svg';
