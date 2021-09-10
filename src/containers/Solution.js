@@ -6,8 +6,15 @@ import goudeLaptop from '../assets/media/solution/goudelaptop.json';
 
 const SolutionWrapper = css`
     background-color: rgba(13, 13, 44);
-
+    padding: 4rem 100px;
+    ${media.large} {
+        padding: 4rem 40px;
+        .lottie-animation {
+            width: 450px;
+        }
+    }
     ${media.medium} {
+        padding: 4rem 40px;
         .lottie-animation {
             width: 350px;
         }

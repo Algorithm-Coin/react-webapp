@@ -8,7 +8,7 @@ import background from '../assets/media/problem/backgroundLines.svg';
 
 const ProblemWrapper = css`
     background-color: #141438;
-
+    padding: 4rem 100px;
     &:after {
         background: url(${background});
         background-repeat: no-repeat;
@@ -25,6 +25,7 @@ const ProblemWrapper = css`
     }
 
     ${media.medium} {
+        padding: 4rem 40px;
         .lottie-animation {
             width: 350px;
         }

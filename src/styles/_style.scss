@@ -28,7 +28,7 @@ a {
 
 .container {
     position: relative;
-    min-height: 80vh;
+    min-height: 90vh;
     padding: 4rem 40px;
     text-align: left;
     align-items: center;
@@ -42,7 +42,7 @@ a {
 
 .flex-container {
     position: relative;
-    min-height: 80vh;
+    min-height: 90vh;
     padding: 4rem 40px;
     text-align: left;
     display: flex;
@@ -78,18 +78,6 @@ a {
         position: inherit;
         left: auto;
         top: auto;
-        transform: none;
-    }
-}
-
-.vertically-centered {
-    position: absolute;
-    top: 50%;
-    transform: translate(0, -50%);
-
-    @media (max-width: 767px) {
-        position: relative;
-        top: 0;
         transform: none;
     }
 }

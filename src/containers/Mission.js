@@ -6,6 +6,10 @@ import media from '../styles/media';
 const MissionWrapper = css`
     background-color: #141438;
     text-align: center;
+    padding: 4rem 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     h1{
         text-align: left;
         font-size: 20px;
@@ -20,6 +24,9 @@ const MissionWrapper = css`
         flex: 1;
         margin-bottom: 10px;
         text-align: left;
+    }
+    ${media.small} {
+        padding: 4rem 40px;
     }
 `;
 const gridContainer = css`
@@ -52,7 +59,7 @@ const geleTekst = css`
 const Mission = () => {
     return (
         <section className="container" css={MissionWrapper} id="mission">
-            <div className="vertically-centered">
+            <div>
                 <h1>Our mission</h1>
                 <h2>To create a new <div css={geleTekst}>Era</div></h2>
                 <h2>with the power of <div css={geleTekst}>Algorithm</div></h2>

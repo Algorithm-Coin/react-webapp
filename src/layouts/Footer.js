@@ -165,7 +165,7 @@ const Footer = () => {
                     <ul css={column}>
                         <HashLink section="Mission" />
                         <HashLink section="Roadmap" />
-                        <HashLink section="How it works" />
+                        <HashLink section="How To Buy" />
                         <HashLink section="Solution" />
                     </ul>
                     <ul css={column}>
