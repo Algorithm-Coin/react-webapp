@@ -5,6 +5,7 @@ import media from '../styles/media';
 
 const CountWrapper = css`
     background-color:  rgba(13, 13, 44);
+    font-family: Nunito,monospace !important;
     text-align: center;
     padding: 4rem 100px;
     display: flex;
@@ -14,6 +15,7 @@ const CountWrapper = css`
     
     h1{
       position: relative;
+      font-size: 40px;
     }
     h2{
       text-align: center;
@@ -21,9 +23,15 @@ const CountWrapper = css`
       padding-bottom: 10px;
       color: white;
       line-height: normal;
+      font-weight: bold ;
     }
     ${media.small} {
-        padding: 4rem 40px;
+      padding: 4rem 40px;
+      h1{
+        font-size: 30px;
+        padding-bottom: 1rem;
+      }
+
     }
 `;
 
@@ -37,8 +45,8 @@ class App extends Component {
     return (
       <section className="container" css={CountWrapper}>
         <div>
-          <h1>Launch Algorithm Coin</h1>
           <h2 className="App-date">{this.state.deadline}</h2>
+          <h1>Launch Algorithm Coin</h1>
           <p><Clock deadline={this.state.deadline} /></p>
         </div>
       </section>

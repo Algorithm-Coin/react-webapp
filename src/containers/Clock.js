@@ -4,24 +4,25 @@ import media from '../styles/media';
 
 const tijden = css`
   color: #FDD700;
-  font-size: 45px;
+  font-size: 85px;
   display: inline-table;
   padding: 15px;
   ${media.small} {
-    font-size: 22px;
+    font-size: 50px;
     padding: 5px;
   }
   ${media.xsmall} {
-    font-size: 15px;
+    font-size: 35px;
     padding: 5px;
   }
 `;
 const letterTijden = css`
   color: #FDD700;
-  font-size: 20px;
-  padding-top: 5px;
+  font-size: 25px;
+  padding-top: 25px;
   ${media.small} {
     font-size: 15px;
+    padding-top: 10px;
   }
   ${media.xsmall} {
     font-size: 10px;
