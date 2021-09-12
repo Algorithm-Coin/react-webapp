@@ -66,8 +66,8 @@ const Problem = () => {
                 </p>
                 <h4>Transparency</h4>
                 <p>
-                    Many Tokens and companies are not transparent. This leads to speculation and
-                    ambiguity. This is not the case with Algorithm Token, because we fight for
+                    Many tokens and companies are not transparent. This leads to speculation and
+                    ambiguity. This is not the case with Algorithm token, because we fight for
                     transparency.
                 </p>
             </div>

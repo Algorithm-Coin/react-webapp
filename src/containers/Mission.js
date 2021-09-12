@@ -70,7 +70,7 @@ const Mission = () => {
                             automatically like a day trader. Advanced software that uses AI and
                             pattern recognition technology makes it possible to make big profits in
                             the crypto market. A demo is currently being worked on. In the future
-                            will this application be available for Algorithm Token holders. 
+                            this application will be available for Algorithm Token holders. 
                         </p>
                     </div>
                     <div css={gridItem}>

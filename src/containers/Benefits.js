@@ -49,9 +49,9 @@ const Benefits = () => {
                 <div className="flex-item" css={highContainer}>
                     <h4>Value increase</h4>
                     <p>
-                        Holding the Algorithm Tokens means you are supporting the future of day
+                        Holding the Algorithm tokens means you are supporting the future of day
                         trading. Every single time a business joins the Algorithm network, the value
-                        of the network increases. The Token will be later available by even more
+                        of the network increases. The token will be later available by even more
                         trading platforms, which causes the price to rise and increase the the
                         Algorithm community.
                     </p>
@@ -59,10 +59,10 @@ const Benefits = () => {
                 <div className="flex-item" css={lowContainer}>
                     <h4>Growth potential</h4>
                     <p>
-                        The potential growth of the Algorithm Token is huge and the application will
+                        The potential growth of the Algorithm token is huge and the application will
                         be used by millions of people worldwide. This will lead to an immense value
                         increase very quickly as our user-base grows and more people are ready to
-                        join the Algorithm Token community.
+                        join the Algorithm community.
                     </p>
                 </div>
             </div>

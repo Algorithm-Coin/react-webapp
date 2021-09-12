@@ -182,7 +182,7 @@ const HowToBuy = () => {
                     </div>
                     <h2>Buy BNB Smartchain token</h2>
                     <p>Go to the BNB Smartchain token inside the app. Click on "Buy" at the right top. Then select the amount of BNB Smart chain tokens you want to buy.
-                    If this is not available in your app due to your country, buy BNB on an exchange and send this to your Trustwallet. For more information <a href="https://community.trustwallet.com/t/how-to-send-and-receive-bnb-on-smart-chain/67430">click here</a></p>
+                    If this is not available in your app due to your country regulations, buy BNB on an exchange and send this to your Trustwallet. For more information <a href="https://community.trustwallet.com/t/how-to-send-and-receive-bnb-on-smart-chain/67430">click here</a></p>
                 </div>
                 <div css={gridItem}>
                     <div css={circle}>
@@ -202,8 +202,8 @@ const HowToBuy = () => {
                         <FaArrowRight/>
                     </div>
                     <h2>Buy Algorithm Token</h2>
-                    <p>Go to exchange on pancakeswap and select BNB at from,
-                        Paste the contract code in To to select the Algorithm Token.
+                    <p>Go to exchange on Pancakeswap and select BNB at 'From'.
+                        Next, paste the contract code in 'To' to select the Algorithm Token.
                         Enter your amounts you want to swap and confirm it to get your first Algorithm Tokens.
 
                         If your Algorithm Tokens are not showing up in your wallet use the following instructions to add the Tokens onto your wallet page: <a href="https://community.trustwallet.com/t/how-to-add-a-custom-token/213">click here.</a></p>

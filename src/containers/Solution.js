@@ -58,7 +58,7 @@ const Solution = () => {
                 <p>
                     Our team wants to make it possible for everyone to day trade via an application.
                     This application will start day trading through our algorithm 24 hours a day and
-                    will only be available for Algorithm Token holders.
+                    will only be available for Algorithm token holders.
                 </p>
                 <h4>Algorithm</h4>
                 <p>
@@ -67,7 +67,7 @@ const Solution = () => {
                     day has been. Our algorithm will learn through AI. Thanks to AI, the algorithm
                     can learn from its mistakes and predict the price even better in the future and
                     last but not least our developers keep working on the algorithm until there will
-                    be nothing to improve ;).
+                    be nothing to improve.
                 </p>
             </div>
         </section>

@@ -167,7 +167,7 @@ const Roadmap = () => {
                                 development of the Algorithm technology. By targeting different
                                 groups of users, the Algorithm currency will accrue in value
                                 exponentially overtime as the network increases in size. The
-                                earliest buyers will experience the most upside potential, with
+                                earliest buyers will experience the most gains, with
                                 the lowest risk.
                             </p>
                             <br></br>
@@ -199,7 +199,7 @@ const Roadmap = () => {
                             <h5>Algorithm Token becomes big</h5>
                             <p>
                                 The algorithm is going to make a lot of money. This money will be
-                                invested back in the Token, causing the Token to rise.
+                                invested back in the token, causing the token to rise.
                             </p>
                             <br></br>
                         </div>
@@ -211,7 +211,7 @@ const Roadmap = () => {
                         <div css={info}>
                             <h4>2024</h4>
                             <h5>Launching the application for users</h5>
-                            <p>We have successfully launched the Application for users.</p>
+                            <p>We have successfully launched the application for users.</p>
                             <br></br>
                         </div>
                     </div>
