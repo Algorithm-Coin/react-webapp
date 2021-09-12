@@ -70,12 +70,12 @@ const Socials = () => {
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.instagram.com/algorithmcoin/" target="_blank">
+                        <a href="https://www.instagram.com/algorithmtoken/" target="_blank">
                             <FaInstagram />
                         </a>
                     </li>
                     <li>
-                        <a href="https://twitter.com/algorithmcoin/" target="_blank">
+                        <a href="https://twitter.com/algorithmToken/" target="_blank">
                             <FaTwitter />
                         </a>
                     </li>

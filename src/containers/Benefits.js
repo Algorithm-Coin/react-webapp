@@ -44,25 +44,25 @@ const responsiveContainer = css`
 const Benefits = () => {
     return (
         <section css={BenefitsWrapper} id="benefits">
-            <h1>Benefits of Buying The Coin</h1>
+            <h1>Benefits of Buying The Token</h1>
             <div className="flex-container" css={responsiveContainer}>
                 <div className="flex-item" css={highContainer}>
                     <h4>Value increase</h4>
                     <p>
-                        Holding the Algorithm Coins means you are supporting the future of day
+                        Holding the Algorithm Tokens means you are supporting the future of day
                         trading. Every single time a business joins the Algorithm network, the value
-                        of the network increases. The coin will be later available by even more
+                        of the network increases. The Token will be later available by even more
                         trading platforms, which causes the price to rise and increase the the
-                        Algorithm Coin community.
+                        Algorithm community.
                     </p>
                 </div>
                 <div className="flex-item" css={lowContainer}>
                     <h4>Growth potential</h4>
                     <p>
-                        The potential growth of the Algorithm Coin is huge and the application will
+                        The potential growth of the Algorithm Token is huge and the application will
                         be used by millions of people worldwide. This will lead to an immense value
                         increase very quickly as our user-base grows and more people are ready to
-                        join the Algorithm Coin community.
+                        join the Algorithm Token community.
                     </p>
                 </div>
             </div>

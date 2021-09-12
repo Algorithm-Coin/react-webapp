@@ -58,7 +58,7 @@ const Solution = () => {
                 <p>
                     Our team wants to make it possible for everyone to day trade via an application.
                     This application will start day trading through our algorithm 24 hours a day and
-                    will only be available for Algorithm Coin holders.
+                    will only be available for Algorithm Token holders.
                 </p>
                 <h4>Algorithm</h4>
                 <p>
