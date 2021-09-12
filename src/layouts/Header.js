@@ -285,10 +285,10 @@ class Header extends Component {
                         <HashLink section="Roadmap" onClick={this.closeMobileMenu} />
                         <HashLink section="Benefits" onClick={this.closeMobileMenu} />
                         <li className="socials">
-                            <a href="https://www.instagram.com/algorithmcoin/" target="_blank">
+                            <a href="https://www.instagram.com/algorithmtoken/" target="_blank">
                                 <FaInstagram />
                             </a>
-                            <a href="https://twitter.com/algorithmcoin/" target="_blank">
+                            <a href="https://twitter.com/algorithmtoken/" target="_blank">
                                 <FaTwitter />
                             </a>
                         </li>

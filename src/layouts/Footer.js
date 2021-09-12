@@ -160,7 +160,7 @@ const Footer = () => {
             <div css={footerWrapper}>
                 <nav css={[row, footerTop]}>
                     <div css={column}>
-                        <img css={logoStyle} src={logo} alt="Algorithm Coin logo" />
+                        <img css={logoStyle} src={logo} alt="Algorithm Token logo" />
                     </div>
                     <ul css={column}>
                         <HashLink section="Mission" />
@@ -190,10 +190,10 @@ const Footer = () => {
                         >
                             <FaFacebook />
                         </a>
-                        <a href="https://www.instagram.com/algorithmcoin/" target="_blank">
+                        <a href="https://www.instagram.com/algorithmtoken/" target="_blank">
                             <FaInstagram />
                         </a>
-                        <a href="https://twitter.com/algorithmcoin/" target="_blank">
+                        <a href="https://twitter.com/algorithmtoken/" target="_blank">
                             <FaTwitter />
                         </a>
                     </div>
