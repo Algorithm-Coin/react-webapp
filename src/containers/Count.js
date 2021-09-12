@@ -37,7 +37,7 @@ class App extends Component {
     return (
       <section className="container" css={CountWrapper}>
         <div>
-          <h1>Launch Algorithm Coin</h1>
+          <h1>Launch Algorithm Token</h1>
           <h2 className="App-date">{this.state.deadline}</h2>
           <p><Clock deadline={this.state.deadline} /></p>
         </div>

@@ -66,17 +66,17 @@ const Mission = () => {
                 <div css={gridContainer}>
                     <div css={(gridItem)}>
                         <p>
-                            Our team at Algorithm Coin is working on an application to trade
+                            Our team at Algorithm is working on an application to trade
                             automatically like a day trader. Advanced software that uses AI and
                             pattern recognition technology makes it possible to make big profits in
                             the crypto market. A demo is currently being worked on. In the future
-                            will this application be available for Algorithm Coin holders. 
+                            will this application be available for Algorithm Token holders. 
                         </p>
                     </div>
                     <div css={gridItem}>
                         <p>
                             When our algorithm starts trading, our team will provide monthly
-                            updates. Our coming application offers a lot of potential in the future. Buy Algorithm Coin now and enjoy our prosperity.
+                            updates. Our coming application offers a lot of potential in the future. Buy Algorithm Token now and enjoy our prosperity.
                         </p>
                     </div>
                 </div>

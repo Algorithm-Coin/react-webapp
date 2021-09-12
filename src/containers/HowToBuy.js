@@ -161,7 +161,7 @@ const HowToBuy = () => {
     return (
         <section css={HowToBuyWrapper} id="howtobuy" className="container">
             <h1>How To Buy Soon</h1>
-            <h3>Here are five simple steps how to buy the Algorithm Coin</h3>
+            <h3>Here are five simple steps how to buy the Algorithm Token</h3>
             <div css={gridContainer}>
                 <div css={gridItem}>
                     <div css={circle}>
@@ -201,12 +201,12 @@ const HowToBuy = () => {
                     <div css={arrowDisappear}>
                         <FaArrowRight/>
                     </div>
-                    <h2>Buy Algorithm Coin</h2>
+                    <h2>Buy Algorithm Token</h2>
                     <p>Go to exchange on pancakeswap and select BNB at from,
-                        Paste the contract code in To to select the Algorithm Coin.
-                        Enter your amounts you want to swap and confirm it to get your first Algorithm Coins.
+                        Paste the contract code in To to select the Algorithm Token.
+                        Enter your amounts you want to swap and confirm it to get your first Algorithm Tokens.
 
-                        If your Algorithm Coins are not showing up in your wallet use the following instructions to add the coins onto your wallet page: <a href="https://community.trustwallet.com/t/how-to-add-a-custom-token/213">click here.</a></p>
+                        If your Algorithm Tokens are not showing up in your wallet use the following instructions to add the Tokens onto your wallet page: <a href="https://community.trustwallet.com/t/how-to-add-a-custom-token/213">click here.</a></p>
                 </div>
                 <div css={gridItem}>
                     <div css={circle}>
