@@ -221,6 +221,7 @@ const HowToBuy = () => {
                     <p>Contract address:</p> 
                     {/* <p>0xc101dd1969095051e490561d53e05dba122c0b70</p> */}
                     <p>Available soon</p>
+                    <p>Decimals: 18</p>
                     <p>Symbol: ALGRTHM</p>
 
                 </div>
