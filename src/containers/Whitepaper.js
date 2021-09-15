@@ -3,7 +3,7 @@ import { css } from '@emotion/react';
 import lottie from 'lottie-web';
 import media from '../styles/media';
 import files from '../assets/media/Whitepaper/files.json';
-import { Button } from '../components';
+
 
 const WhitepaperWrapper = css`
     background-color: rgba(13, 13, 44);
