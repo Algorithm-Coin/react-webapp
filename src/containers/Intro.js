@@ -198,8 +198,7 @@ const Intro = () => {
                 <Button text="buy now on pancakeswap" href="https://pancakeswap.finance/swap" />
                 <div css={ruimteBoven}>
                     <p>CONTRACT ADDRESS</p>
-                    {/* <p>0xc101dd1969095051e490561d53e05dba122c0b70</p> */}
-                    <p>Available soon</p>
+                    <p>0xc101dd1969095051e490561d53e05dba122c0b70</p>
                 </div>
             </div>
         </section>

@@ -8,6 +8,7 @@ const BenefitsWrapper = css`
 
     h1 {
         text-align: center;
+        padding: 4rem 40px;
         padding-bottom: 0;
     }
     ${media.small} {
