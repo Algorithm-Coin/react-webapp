@@ -3,7 +3,7 @@ import { css } from '@emotion/react';
 import lottie from 'lottie-web';
 import media from '../styles/media';
 import files from '../assets/media/Whitepaper/files.json';
-
+import pdf from '../assets/media/Whitepaper/AlgorithmWhitepaper.pdf'
 
 const WhitepaperWrapper = css`
     background-color: rgba(13, 13, 44);
@@ -71,10 +71,9 @@ const Whitepaper = () => {
         <section css={WhitepaperWrapper} id="whitepaper" className="flex-container">
             <div className="flex-item">
                 <h1>Whitepaper</h1>
-                {/* <p>To see the whitepaper click on 'Download'</p> */}
-                <form method="get" action="src/assets/media/Whitepaper/AlgorithmWhitepaper.pdf">
-                    <button type="submit" method="get" css={ButtonStyle}> Download</button>
-                </form>
+                {/* <form method="get" action="./AlgorithmWhitepaper.pdf"> */}
+                    <a href={pdf} css={ButtonStyle} target="_blank">Download</a>
+                {/* </form> */}
             </div>
             <div className="flex-item">
                 <div
