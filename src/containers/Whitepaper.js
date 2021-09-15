@@ -42,6 +42,9 @@ const WhitepaperWrapper = css`
         }
     }
 `;
+const itemcenter = css`
+    text-align: center;
+`;
 const ButtonStyle = css`
   font-size: 17px;
   color: white;
@@ -69,11 +72,9 @@ const Whitepaper = () => {
     }, []);
     return (
         <section css={WhitepaperWrapper} id="whitepaper" className="flex-container">
-            <div className="flex-item">
+            <div className="flex-item"css={itemcenter}>
                 <h1>Whitepaper</h1>
-                {/* <form method="get" action="./AlgorithmWhitepaper.pdf"> */}
                     <a href={pdf} css={ButtonStyle} target="_blank">Download</a>
-                {/* </form> */}
             </div>
             <div className="flex-item">
                 <div
