@@ -72,7 +72,7 @@ const Whitepaper = () => {
             <div className="flex-item">
                 <h1>Whitepaper</h1>
                 {/* <p>To see the whitepaper click on 'Download'</p> */}
-                <form method="get" action="./public/AlgorithmWhitepaper.pdf">
+                <form method="get" action="src/assets/media/Whitepaper/AlgorithmWhitepaper.pdf">
                     <button type="submit" method="get" css={ButtonStyle}> Download</button>
                 </form>
             </div>
