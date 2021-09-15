@@ -192,7 +192,7 @@ const HowToBuy = () => {
                         <FaArrowRight/>
                     </div>
                     <h2>Connecting the wallet</h2>
-                    <p>Open Pancakeswap on your browser and connect your wallet via Walletconnect. The website of Pancakeswap is: https://pancakeswap.finance/ or <a href="https://pancakeswap.finance/">click here</a></p>
+                    <p>Open PancakeSwap  on your browser and connect your wallet via Walletconnect. The website of PancakeSwap  is: https://pancakeswap.finance/ or <a href="https://pancakeswap.finance/">click here</a></p>
                 </div>
                 <div css={gridItem}>
                     <div css={circle}>
@@ -202,7 +202,7 @@ const HowToBuy = () => {
                         <FaArrowRight/>
                     </div>
                     <h2>Buy Algorithm Token</h2>
-                    <p>Go to exchange on Pancakeswap and select BNB at 'From'.
+                    <p>Go to exchange on PancakeSwap  and select BNB at 'From'.
                         Next, paste the contract code in 'To' to select the Algorithm Token.
                         Enter your amounts you want to swap and confirm it to get your first Algorithm Tokens.
 
