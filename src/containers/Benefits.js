@@ -52,7 +52,7 @@ const Benefits = () => {
                         Holding the Algorithm tokens means you are supporting the future of day
                         trading. Every single time a business joins the Algorithm network, the value
                         of the network increases. The token will be later available by even more
-                        trading platforms, which causes the price to rise and increase the the
+                        trading platforms, which causes the price to rise and increase the
                         Algorithm community.
                     </p>
                 </div>
