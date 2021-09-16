@@ -8,7 +8,7 @@ const tijden = css`
   display: inline-table;
   padding: 15px;
   ${media.small} {
-    font-size: 50px;
+    font-size: 40px;
     padding: 5px;
   }
   ${media.xsmall} {
