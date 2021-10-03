@@ -37,7 +37,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-algorithm-coin">About Algorithm Coin</a>
+      <a href="#about-algorithm-coin">About Algorithm Token</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -59,11 +59,11 @@
 
 <!-- ABOUT THE PROJECT -->
 
-## About Algorithm Coin
+## About Algorithm Token
 
 ![Product Gif](https://github.com/Algorithm-Coin/react-webapp/blob/main/src/assets/algorithm.gif)
 
-Our team at Algorithm Coin is working on an application to trade automatically like a day trader. Advanced software that uses AI and pattern recognition technology makes it possible to analyse the crypto market and automatically trade. A demo is being worked on as we speak. Currently only the elite has access to such powerful tools. That's why, in the future, this application will be made available for Algorithm Coin holders.
+Our team at Algorithm Token is working on an application to trade automatically like a day trader. Advanced software that uses AI and pattern recognition technology makes it possible to analyse the crypto market and automatically trade. A demo is being worked on as we speak. Currently only the elite has access to such powerful tools. That's why, in the future, this application will be made available for Algorithm Token holders.
 
 In order to present the software we provide, we created this web-application. As stated above, only the elite had access to these kinds of tools. Money makes money, unfortunately. We would like to be more transparent about the application(s) we create. That is the reason you are able to read this documentation. This repository shows what we do with our users sensitive information (or better said, what we DO NOT do) within the web-application. We licensed this web-application under the public license GPLv3. This is just to make sure we don't get into any political issues and no-one can simply copy our work.
 
