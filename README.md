@@ -18,7 +18,7 @@
     <img src="src/assets/media/logo.png" alt="Logo" width="80" height="120">
   </a>
 
-  <h3 align="center">Algorithm Coin</h3>
+  <h3 align="center">Algorithm Token</h3>
 
   <p align="center">
     The future of automatic trading
