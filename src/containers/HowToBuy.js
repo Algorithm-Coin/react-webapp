@@ -219,7 +219,7 @@ const HowToBuy = () => {
                     <p>Name: Algorithm</p>
                     <p>Network: Smart Chain</p>
                     <p>Contract address:</p> 
-                    <p>0xc101dd1969095051e490561d53e05dba122c0b70</p>
+                    <p><a title="Copy" onClick={() => navigator.clipboard.writeText('0xc101dd1969095051e490561d53e05dba122c0b70')}>0xc101dd1969095051e490561d53e05dba122c0b70</a></p>
                     <p>Decimals: 18</p>
                     <p>Symbol: ALGRTHM</p>
 
