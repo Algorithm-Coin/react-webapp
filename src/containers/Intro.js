@@ -1,6 +1,6 @@
 import React from 'react';
 import { css } from '@emotion/react';
-
+import { FaCopy } from 'react-icons/fa';
 import Particles from 'react-particles-js';
 import { Button } from '../components';
 import logo from '../assets/media/logo.png';
@@ -73,10 +73,18 @@ const TextContainer = css`
         margin-top: 40px;
         pointer-events: all;
     }
+    a:hover {
+        color: #FDD700;
+    }
+
     p{
         word-wrap: break-word;
         padding: 0rem 40px ;
     }
+`;
+const copyStyle = css`
+    word-wrap: break-word;
+    padding: 0rem 40px ;
 `;
 const ruimteBoven = css`
     padding-top: 20px;
@@ -198,7 +206,7 @@ const Intro = () => {
                 <Button text="buy soon on pancakeswap" href="https://pancakeswap.finance/swap" />
                 <div css={ruimteBoven}>
                     <p>CONTRACT ADDRESS</p>
-                    <p>0xc101dd1969095051e490561d53e05dba122c0b70</p>
+                    <p><a title="Copy" onClick={() => navigator.clipboard.writeText('0xc101dd1969095051e490561d53e05dba122c0b70')}>0xc101dd1969095051e490561d53e05dba122c0b70 <FaCopy/></a></p>
                 </div>
             </div>
         </section>

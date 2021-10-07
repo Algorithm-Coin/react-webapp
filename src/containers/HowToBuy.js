@@ -5,6 +5,7 @@ import { FaWallet, FaArrowRight } from 'react-icons/fa';
 import { GoBrowser, GoVerified } from "react-icons/go";
 import logo from '../assets/media/howToBuy/algorithm_logo.svg';
 import binanceLogo from '../assets/media/howToBuy/cryptocurrency_bnb.svg';
+
 const HowToBuyWrapper = css`
     font-family: 'Nunito', monospace;
     background-color: rgba(13, 13, 44);
@@ -146,6 +147,7 @@ const arrow = css`
         display: none;
     }
 `;
+
 const arrow2 = css`
     svg{
         position: relative;
@@ -171,7 +173,7 @@ const HowToBuy = () => {
                         <FaArrowRight/>
                     </div>
                     <h2>Get your own wallet</h2>
-                    <p>Download for example the app: "Trustwallet". Write down your recovery phrase. Store this phrase in a safe place and never share this phrase with anyone. For more information <a href="https://academy.binance.com/en/articles/connecting-trust-wallet-to-binance-smart-chain-bsc">click here</a></p>
+                    <p>Download for example the app: "Trustwallet". Write down your recovery phrase. Store this phrase in a safe place and never share this phrase with anyone. For more information <a href="https://academy.binance.com/en/articles/connecting-trust-wallet-to-binance-smart-chain-bsc">click here.</a></p>
                 </div>
                 <div css={gridItem}>
                     <div css={circle}>
@@ -182,7 +184,7 @@ const HowToBuy = () => {
                     </div>
                     <h2>Buy BNB Smartchain token</h2>
                     <p>Go to the BNB Smartchain token inside the app. Click on "Buy" at the right top. Then select the amount of BNB Smart chain tokens you want to buy.
-                    If this is not available in your app due to your country regulations, buy BNB on an exchange and send this to your Trustwallet. For more information <a href="https://community.trustwallet.com/t/how-to-send-and-receive-bnb-on-smart-chain/67430">click here</a></p>
+                    If this is not available in your app due to your country regulations, buy BNB on an exchange and send this to your Trustwallet. For more information <a href="https://community.trustwallet.com/t/how-to-send-and-receive-bnb-on-smart-chain/67430">click here.</a></p>
                 </div>
                 <div css={gridItem}>
                     <div css={circle}>
@@ -192,7 +194,7 @@ const HowToBuy = () => {
                         <FaArrowRight/>
                     </div>
                     <h2>Connecting the wallet</h2>
-                    <p>Open PancakeSwap  on your browser and connect your wallet via Walletconnect. The website of PancakeSwap  is: https://pancakeswap.finance/ or <a href="https://pancakeswap.finance/">click here</a></p>
+                    <p>Open PancakeSwap  on your browser and connect your wallet via Walletconnect. The website of PancakeSwap  is: https://pancakeswap.finance/ or <a href="https://pancakeswap.finance/">click here.</a></p>
                 </div>
                 <div css={gridItem}>
                     <div css={circle}>
@@ -219,7 +221,7 @@ const HowToBuy = () => {
                     <p>Name: Algorithm</p>
                     <p>Network: Smart Chain</p>
                     <p>Contract address:</p> 
-                    <p>0xc101dd1969095051e490561d53e05dba122c0b70</p>
+                    <p><a title="Copy" onClick={() => navigator.clipboard.writeText('0xc101dd1969095051e490561d53e05dba122c0b70')}>0xc101dd1969095051e490561d53e05dba122c0b70</a></p>
                     <p>Decimals: 18</p>
                     <p>Symbol: ALGRTHM</p>
 
