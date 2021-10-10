@@ -76,7 +76,7 @@ const Mission = () => {
                     <div css={gridItem}>
                         <p>
                             When our algorithm starts trading, our team will provide monthly
-                            updates. Our coming application offers a lot of potential in the future. Buy Algorithm Token now and enjoy our prosperity.
+                            updates and the profit of the algorithm will be back invested in the token every month. Our coming application offers a lot of potential in the future. Buy Algorithm Token now and enjoy our prosperity.
                         </p>
                     </div>
                 </div>

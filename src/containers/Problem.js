@@ -64,11 +64,9 @@ const Problem = () => {
                     economic figures are often striking. Right now, only the elite have the best
                     algorithms on the crypto market. These algorithms invest in longer periods and not like a real day trader.
                 </p>
-                <h4>Transparency</h4>
+                <h4>Profit</h4>
                 <p>
-                    Many tokens and companies are not transparent. This leads to speculation and
-                    ambiguity. This is not the case with Algorithm token, because we fight for
-                    transparency.
+                    There is no company or organization that invests its profit back into its own token every month like Algorithm. By investing the profit back into the token, every holder can enjoy the profits of the algorithm and this is what makes the Algorithm token unique.
                 </p>
             </div>
             <div className="flex-item">

@@ -161,11 +161,24 @@ const Roadmap = () => {
                         </div>
                         <div css={info}>
                             <h4>2021</h4>
-                            <h5>Launching the Algorithm Token(AlGRTHM)</h5>
+                            <h5>Launching the Algorithm token(AlGRTHM)</h5>
                             <p>
                                 Algorithm currency will be created to raise funds for the
-                                development of the Algorithm technology. By targeting different
-                                groups of users, the Algorithm currency will accrue in value
+                                development of the Algorithm technology. The money that the tokens will generate will go partly to development and partly to the budget that the algorithm trades with. Marketing is being started and brand awareness will develop.
+                            </p>
+                            <br></br>
+                        </div>
+                    </div>
+                    <div css={containerGrid2}>
+                        <div css={iconGrid}>
+                            <img src={logo} css={icon} alt="afbeelding van logo"></img>
+                        </div>
+                        <div css={info}>
+                            <h4>2022 Q1 & Q2</h4>
+                            <h5>Algorithm token becomes big</h5>
+                            <p>
+                                The algorithm is going to make a lot of money. This money will be
+                                invested back in the token, causing the token to rise. Algorithm goes worldwide. By targeting different groups of users, the Algorithm currency will accrue in value
                                 exponentially overtime as the network increases in size. The
                                 earliest buyers will experience the most gains, with
                                 the lowest risk.
@@ -178,8 +191,8 @@ const Roadmap = () => {
                             <img src={logo} css={icon} alt="afbeelding van logo"></img>
                         </div>
                         <div css={info}>
-                            <h4>2022</h4>
-                            <h5>The Future of our Algorithm and the Token</h5>
+                            <h4>2022 Q3 & Q4</h4>
+                            <h5>The future of our Algorithm and the token</h5>
                             <p>
                                 We will implement a global marketing campaign which will lead to
                                 exposure to millions of people worldwide. We will explore
@@ -196,10 +209,9 @@ const Roadmap = () => {
                         </div>
                         <div css={info}>
                             <h4>2023</h4>
-                            <h5>Algorithm Token becomes big</h5>
+                            <h5>The development of the app</h5>
                             <p>
-                                The algorithm is going to make a lot of money. This money will be
-                                invested back in the token, causing the token to rise.
+                                The development of the application will start. With this application, the algorithm will be available to holders of the Algorithm token.
                             </p>
                             <br></br>
                         </div>
@@ -210,8 +222,8 @@ const Roadmap = () => {
                         </div>
                         <div css={info}>
                             <h4>2024</h4>
-                            <h5>Launching the application for users</h5>
-                            <p>We have successfully launched the application for users.</p>
+                            <h5>Launching the application for holders</h5>
+                            <p>We have successfully launched the application for holders of the Algorithm token.</p>
                             <br></br>
                         </div>
                     </div>
