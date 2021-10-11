@@ -28,7 +28,6 @@ const HowToBuyWrapper = css`
     h2{
         text-align: center;
         font-size: 20px;
-        color: white;
         line-height: normal;
         font-weight: bold;
     }
@@ -36,8 +35,6 @@ const HowToBuyWrapper = css`
         text-align: center;
         font-size: 18px;
         padding-bottom: 10px;
-        color: white;
-        line-height: normal;
     }
     svg{
         width: 50px;
@@ -59,11 +56,11 @@ const HowToBuyWrapper = css`
     }
     a{
         font-size: 16px;
-        text-align: center;
         color: #FDD700;
     }
     a:hover{
         border-bottom: 1px solid;
+        cursor: pointer;
     }
 `;
 const gridContainer = css`
@@ -79,8 +76,6 @@ const gridContainer = css`
 `;
 const gridItem = css`
     padding: 20px;
-    width: 100%;
-    height: auto;
     word-break: break-word;
 
     ${media.small} {
@@ -96,7 +91,6 @@ const icon = css`
 `;
 const circle = css`
     position:relative;
-    background-color: transparent;
     border:4px solid #FDD700;    
     height:100px;
     border-radius:50%;
@@ -162,8 +156,8 @@ const arrow2 = css`
 const HowToBuy = () => {
     return (
         <section css={HowToBuyWrapper} id="howtobuy" className="container">
-            <h1>How To Buy Soon</h1>
-            <h3>Here are five simple steps how to buy the Algorithm Token</h3>
+            <h1>How to buy soon</h1>
+            <h3>How to buy the Algorithm token in five steps</h3>
             <div css={gridContainer}>
                 <div css={gridItem}>
                     <div css={circle}>
@@ -203,7 +197,7 @@ const HowToBuy = () => {
                     <div css={arrowDisappear}>
                         <FaArrowRight/>
                     </div>
-                    <h2>Buy Algorithm Token</h2>
+                    <h2>Buy Algorithm token</h2>
                     <p>Go to exchange on PancakeSwap  and select BNB at 'From'.
                         Next, paste the contract code in 'To' to select the Algorithm Token.
                         Enter your amounts you want to swap and confirm it to get your first Algorithm Tokens.

@@ -46,22 +46,17 @@ const itemcenter = css`
     text-align: center;
 `;
 const ButtonStyle = css`
-  font-size: 17px;
-  color: white;
-  text-decoration: none;
-  letter-spacing: 1px;
-  text-align: center;
-  background-color: transparent;
-  border: 3px solid white;
-  padding: 15px 15px;
-  text-transform: uppercase;
-  display: inline-block;
+    font-size: 17px;
+    letter-spacing: 1px;
+    border: 3px solid white;
+    padding: 15px 15px;
+    display: inline-block;
 
-  &:hover {
-    border: 3px solid #FDD700;
-    color: #FDD700;
-    cursor: pointer;
-  }
+    &:hover {
+        border: 3px solid #FDD700;
+        color: #FDD700;
+        cursor: pointer;
+    }
 `;
 const Whitepaper = () => {
     React.useEffect(() => {
@@ -74,7 +69,7 @@ const Whitepaper = () => {
         <section css={WhitepaperWrapper} id="whitepaper" className="flex-container">
             <div className="flex-item"css={itemcenter}>
                 <h1>Whitepaper</h1>
-                    <a href={pdf} css={ButtonStyle} target="_blank">Download</a>
+                    <a href={pdf} css={ButtonStyle} target="_blank">DOWNLOAD</a>
             </div>
             <div className="flex-item">
                 <div

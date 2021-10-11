@@ -10,17 +10,12 @@ const ProblemWrapper = css`
     padding: 4rem 100px;
     &:after {
         background: url(${background});
-        background-repeat: no-repeat;
         background-size: cover;
         content: '';
-        display: block;
         position: absolute;
-        top: 0;
-        left: 0;
         width: 100%;
         height: 100%;
         opacity: 0.5;
-        z-index: 1;
     }
 
     ${media.medium} {
